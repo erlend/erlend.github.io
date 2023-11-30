@@ -1,0 +1,64 @@
+name: Erlend Codes
+description: ""
+url: "https://erlend.codes"
+email: erlendf@hey.com
+image: me-head-idea.png
+
+# Social media
+social_media:
+  facebook:
+  github: erlend
+  instagram:
+  twitter:
+  youtube:
+
+# facebook:
+#   app_id:  # TODO # Facebook app ID for Facebook insights
+#   publisher:  # TODO # Facebook page URL or ID of the publishing entity
+#   admins:  # TODO # Facebook user ID for domain insights linked to a personal account
+twitter:
+  card: summary
+  username: _erlend
+
+# Webmaster tools
+webmaster_verifications: {}
+  # google: 1234
+  # bing: 1234
+  # alexa: 1234
+  # yandex: 1234
+  # baidu: 1234
+  # facebook: 1234
+
+# Default frontmatter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Remove file ext from urls
+permalink: pretty
+
+# Prevent unwanted files to be added to the site
+exclude:
+  - docker-compose.yml
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
+  - Rakefile
+  - README.md
+  - mkmf.log
+  - tailwindcss.config.js
+  - vendor
+
+# Bundle stylesheets with Tailwind CLI
+minibundle:
+  mode: development
+  minifier_commands:
+    css: vendor/bin/tailwindcss --minify --input -

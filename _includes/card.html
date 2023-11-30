@@ -1,0 +1,20 @@
+{% assign title = include.title | default: page.title | default: site.title -%}
+{% assign title_id = title | slugify | append: "-title" -%}
+
+<section aria-labelledby="{{ title_id }}" class="mx-auto max-w-2xl mb-20">
+  <div class="shadow sm:overflow-hidden sm:rounded-lg">
+    <div class="divide-y divide-gray-200">
+      <div class="px-4 py-5 sm:px-6 flex justify-between">
+        <h2 id="{{ title_id }}" class="text-lg font-medium text-gray-900">
+          {{ title }}
+        </h2>
+        <div>
+          {{ include.extra }}
+        </div>
+      </div>
+      <div class="px-4 py-6 sm:px-6">
+        {{ include.body }}
+      </div>
+    </div>
+  </div>
+</section>

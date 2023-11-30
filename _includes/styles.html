@@ -1,0 +1,29 @@
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1e293b">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff">
+{% comment %}
+Stylesheets are handled differently based on whether you're in a development or
+production environments. The environment can be changed by setting the
+environment variable "JEKYLL_ENV" to "development" or "production".
+
+The main difference between the two is that in production the output file is
+minified and its MD5 hash is added to the filename for cache-busting.
+{% endcomment %}
+{% if jekyll.environment == "production" %}
+{% minibundle css %}
+source_dir: _assets/stylesheets
+assets: [application]
+baseurl: "{{ site.baseurl }}/"
+attributes:
+  media: screen, projection
+  "data-turbo-track": reload
+{% endminibundle %}
+{% else %}
+{% comment %}
+Use tailwindcss-cli in development for close to instant updates.
+{% endcomment %}
+<link
+    rel="stylesheet"
+    href="{{ '/assets/tailwind.css' | relative_url }}"
+    media="screen, projection"
+    data-turbo-track="reload">
+{% endif %}

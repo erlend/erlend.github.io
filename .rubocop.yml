@@ -1,0 +1,19 @@
+require:
+  - rubocop-jekyll
+  - rubocop-performance
+  - rubocop-rake
+
+inherit_gem:
+  rubocop-jekyll: .rubocop.yml
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - vendor/bundle/**/*
+
+Jekyll/NoPutsAllowed:
+  Exclude:
+    - Rakefile
+
+Style/Documentation:
+  Enabled: false

@@ -1,0 +1,37 @@
+<script type="importmap">
+  {
+    "imports": {
+      {% for key_and_value in site.data.importmap.imports -%}
+        {%- assign key = key_and_value | first -%}
+        {%- assign path = key_and_value | last -%}
+        "{{ key }}":
+        {%- if path contains '://' -%}
+          "{{ path }}"
+        {%- else -%}
+          {%- capture url -%}
+            {{ '/' | relative_url }}{% ministamp {
+              source_path: '{{ path }}',
+              destination_path: 'assets/javascript/{{ key }}.js'
+            } %}
+          {%- endcapture -%}
+          {%- if key == './application' -%}
+            {%- assign application_script = url -%}
+          {%- endif -%}
+          "{{ url }}"
+        {%- endif -%}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    },
+    "scope": {{ site.data.importmap.scope | jsonify }}
+  }
+</script>
+<script
+  async
+  src="https://ga.jspm.io/npm:es-module-shims@1.8.2/dist/es-module-shims.js"
+  integrity="sha384-+dzlBT6NPToF0UZu7ZUA6ehxHY8h/TxJOZxzNXKhFD+5He5Hbex+0AIOiSsEaokw"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  type="module"
+  src="{{ application_script }}"
+></script>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html class="h-full" lang="{{ page.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+    <link rel="sitemap" href="{{ '/sitemap.xml' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.base_url }}/{% ministamp _assets/images/apple-touch-icon.png assets/images/apple-touch-icon.png %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.base_url }}/{% ministamp _assets/images/favicon-32x32.png assets/images/favicon-32x32.png %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.base_url }}/{% ministamp _assets/images/favicon-16x16.png assets/images/favicon-16x16.png %}">
+    <link rel="shortcut icon" href="{{ site.base_url }}/{% ministamp _assets/images/favicon.ico assets/images/favicon.ico %}">
+    {% include importmap.html %}
+    {% include styles.html %}
+    {% seo %}
+  </head>
+  <body class="h-full bg-white dark:bg-slate-800">
+    {{ content }}
+  </body>
+</html>

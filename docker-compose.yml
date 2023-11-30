@@ -1,0 +1,28 @@
+version: "3"
+
+x-default: &default
+  build:
+    context: .
+    target: dependencies
+  image: erlend-codes:dev
+  volumes:
+    - .:${PWD:-/web}
+  working_dir: ${PWD:-/web}
+
+services:
+  web:
+    <<: *default
+    command: bundle exec jekyll serve --watch --livereload --host=0.0.0.0
+    ports:
+      - 4000:4000
+      - 35729:35729
+    depends_on:
+      - css
+
+  css:
+    <<: *default
+    command: tailwindcss
+      --watch
+      --input _assets/stylesheets/application.css
+      --output assets/tailwind.css
+    tty: true

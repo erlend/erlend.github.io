@@ -1,0 +1,60 @@
+# Should have the same version as Dockerfile
+image: ruby:3.2
+
+# Cache gems in between builds
+cache:
+  paths:
+    - vendor/bin
+    - vendor/bundle
+
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  CI: "true"
+  BUNDLE_DEPLOYMENT: "true"
+  JEKYLL_ENV: production
+
+before_script:
+  - ruby -v  # Print out ruby version for debugging
+  - rake setup
+
+build:
+  stage: build
+  script:
+    - bundle exec rake build
+  artifacts:
+    name: site
+    paths:
+      - _site
+    when: on_success
+    expire_in: 30 days
+
+test:
+  stage: test
+  dependencies:
+    - build
+  script:
+    - bundle exec rake htmlproofer
+
+rubocop:
+  stage: test
+  script:
+    - bundle exec rake rubocop
+  artifacts:
+    reports:
+      junit: rubocop.junit
+
+pages:
+  stage: deploy
+  dependencies:
+    - build
+  script:
+    - mv _site public  # Pages are expected in the public directory
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  artifacts:
+    paths:
+      - public

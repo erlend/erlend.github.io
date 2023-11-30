@@ -1,0 +1,36 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {%- assign pages = site.pages %}
+  {%- for page in pages %}
+  {%- unless page.url contains '.xml' or page.url contains 'assets' %}
+      <url>
+        <loc>{{ page.url | absolute_url | remove: "index.html" }}</loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>1.0</priority>
+       </url>
+  {%- endunless %}
+  {%- endfor %}
+  {%- assign posts = site.posts %}
+  {%- for page in posts %}
+      <url>
+        <loc>{{ page.url | absolute_url | remove: "index.html" }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  {%- endfor %}
+  {%- for page in site.without-plugin %}
+      <url>
+        <loc>{{ page.url | absolute_url | remove: "index.html" }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  {%- endfor %}
+</urlset>

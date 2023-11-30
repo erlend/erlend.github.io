@@ -1,0 +1,31 @@
+---
+title: erlend.codes
+---
+{% if site.posts.first %}
+<div class="mt-6 grid gap-16 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
+  {% for post in site.posts limit: 4 %}
+  <div>
+    <p class="text-sm mb-2 text-slate-500">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date_to_string }}
+      </time>
+    </p>
+    <a
+      href="{{ post.url | relative_url }}"
+      class="text-xl font-semibold text-slate-600 hover:text-slate-500
+             dark:text-slate-400"
+    >{{ post.title }}</a>
+    <p class="my-3 text-base text-slate-500">
+      {{ post.excerpt | strip_html }}
+    </p>
+    <a
+      href="{{ post.url | relative_url }}"
+      class="text-base font-semibold text-slate-600 hover:text-slate-500
+              dark:text-slate-400"
+    >Read full story</a>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="py-8 lg:py-16 xl:py-32"></div>
+{% endif %}

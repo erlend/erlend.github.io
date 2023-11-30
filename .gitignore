@@ -1,0 +1,9 @@
+.gitlab-ci-local
+.jekyll-cache
+mkmf.log
+/_site
+/assets
+/public
+/vendor/*
+!/vendor/.keep
+!/vendor/bin/.keep

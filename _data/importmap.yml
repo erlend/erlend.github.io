@@ -1,0 +1,6 @@
+imports:
+  "@hotwired/stimulus": "https://ga.jspm.io/npm:@hotwired/stimulus@3.2.1/dist/stimulus.js"
+  "@hotwired/turbo": "https://ga.jspm.io/npm:@hotwired/turbo@7.2.4/dist/turbo.es2017-esm.js"
+  "stimulus-resolvers": "https://ga.jspm.io/npm:stimulus-resolvers@1.0.4/dist/index.es.js"
+
+scopes: {}

@@ -1,0 +1,5 @@
+---
+# vi: ft=sh
+layout: none
+---
+{% include setup.sh %}
