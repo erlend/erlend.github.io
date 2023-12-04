@@ -1,8 +1,9 @@
 .gitlab-ci-local
 .jekyll-cache
+.pnpm-store
 /_site
 /assets
+/node_modules
 /public
 /vendor/*
 !/vendor/.keep
-!/vendor/bin/.keep

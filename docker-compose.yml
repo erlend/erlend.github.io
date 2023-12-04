@@ -1,18 +1,25 @@
 version: "3"
 
+volumes:
+  ruby_gems:
+  node_modules:
+
 x-default: &default
   build:
     context: .
-    target: dependencies
-  image: erlend-codes:dev
+    target: base
   volumes:
     - .:${PWD:-/web}
+    - ruby_gems:/usr/local/bundle
+    - node_modules:${PWD:-/web}/node_modules
   working_dir: ${PWD:-/web}
 
 services:
   web:
     <<: *default
-    command: bundle exec jekyll serve --watch --livereload --host=0.0.0.0
+    command: rake setup:bundler jekyll:serve
+    environment:
+      JEKYLL_HOST: 0.0.0.0
     ports:
       - 4000:4000
       - 35729:35729
@@ -21,8 +28,5 @@ services:
 
   css:
     <<: *default
-    command: tailwindcss
-      --watch
-      --input _assets/stylesheets/application.css
-      --output assets/tailwind.css
+    command: rake setup:pnpm tailwindcss:watch
     tty: true

@@ -1,0 +1,13 @@
+/.git
+/.github
+/.gitignore
+/.gitlab-ci-local
+/.gitlab-ci.yml
+/.jekyll-cache
+/.pnpm-store
+/.ruby-lsp
+/_site
+/assets
+/node_modules
+/vendor/*
+!/vendor/.keep

@@ -50,6 +50,9 @@ exclude:
   - Dockerfile
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - pnpm-lock.yaml
   - Procfile
   - Rakefile
   - README.md
