@@ -50,10 +50,13 @@ exclude:
   - Dockerfile
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - pnpm-lock.yaml
   - Procfile
   - Rakefile
   - README.md
-  - tailwindcss.config.js
+  - tailwind.config.js
   - vendor
 
 # Bundle stylesheets with Tailwind CLI

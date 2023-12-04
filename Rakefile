@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-TAILWIND_VERSION = ENV.fetch("TAILWIND_VERSION", "3.3.5")
-
 begin
   require "html-proofer"
   require "rubocop/rake_task"
@@ -11,9 +9,9 @@ begin
   end
 
   desc "Check HTML for errors"
-  task :htmlproofer => :configuration do
-    output_dir = @root.join @site.fetch("destination", "_site")
-    Rake::Task["build"].invoke if Dir.empty?(output_dir)
+  task :htmlproofer => :environment do
+    output_dir = File.join(__dir__, @site.fetch("destination", "_site"))
+    Rake::Task["jekyll:build"].invoke if Dir.empty?(output_dir)
 
     base_url = @site["base_url"]
     options = {
@@ -33,39 +31,26 @@ begin
   multitask :all => [:htmlproofer, :rubocop]
   task :default => :all
 rescue LoadError
-  puts "Could not load test suite."
+  puts "Some dependencies are missing. Run `rake setup` to fix this."
 end
 
-task :configuration do # rubocop:disable Rake/Desc
+task :build => "jekyll:build" # rubocop:disable Rake/Desc
+task :environment do # rubocop:disable Rake/Desc
   require "bundler"
-  require "pathname"
   require "uri"
   require "yaml"
 
-  @root = Pathname.new(__dir__)
-  @site = YAML.safe_load_file @root.join("_config.yml")
-end
-
-task :environment => :configuration do # rubocop:disable Rake/Desc
-  path = find_executable("tailwindcss") ||
-    ENV.fetch("TAILWIND_BIN", "vendor/bin/tailwindcss")
-
-  @tailwindcss = path.start_with?("/") ? Pathname.new(path) : @root.join(path)
-
+  tailwindcss_path = find_executable("tailwindcss") || "node_modules/.bin/tailwindcss"
+  ENV["JEKYLL_MINIBUNDLE_CMD_CSS"] ||= File.expand_path(tailwindcss_path)
   ENV["JEKYLL_MINIBUNDLE_MODE"] ||= ENV.fetch("JEKYLL_ENV", nil)
-  ENV["JEKYLL_MINIBUNDLE_CMD_CSS"] ||= @tailwindcss.expand_path.to_s
-end
-
-desc "Build the site"
-task :build => :environment do
-  system "bundle exec jekyll build"
+  @site = YAML.safe_load_file File.join(__dir__, "_config.yml")
 end
 
 desc "Setup build tools"
-multitask :setup => %w(setup:bundler setup:tailwindcss)
+multitask :setup => %w(setup:bundler setup:pnpm)
 
 desc "Run development server"
-task :dev => :configuration do
+task :dev => :environment do
   if find_executable("docker") && system("docker compose version &>/dev/null")
     Rake::Task["dev_server:docker"].invoke
   else
@@ -91,40 +76,33 @@ end
 namespace :setup do
   desc "Install Ruby gems with Bundler"
   task :bundler do
-    require "bundler"
     system("bundle check") || system!("bundle install")
   end
 
-  desc "Download TailwindCSS"
-  task :tailwindcss => :environment do
-    next if @tailwindcss.exist?
-
-    Bundler.mkdir_p @tailwindcss.dirname
-    @tailwindcss.open("wb", 0o755) { |file| file << download_tailwindcss }
+  desc "Install Node.js packages with pnpm"
+  task :pnpm do
+    system!("pnpm install")
   end
 end
 
-def download_tailwindcss
-  require "net/https"
+namespace :jekyll do
+  desc "Build the site"
+  task :build => :environment do
+    system "bundle exec jekyll build"
+  end
 
-  arch, os = RUBY_PLATFORM.split("-")
-  arch = "arm64" if arch == "aarch64"
-  arch = "x64" if arch == "x86_64"
-  os = "macos" if os.start_with?("darwin")
-  puts "=> Downloading TailwindCSS #{TAILWIND_VERSION} for #{arch}-#{os}"
+  desc "Run Jekyll server"
+  task :serve => :environment do
+    host = ENV.fetch("JEKYLL_HOST", nil)
+    args = "--host #{host}" if host
+    system "bundle exec jekyll serve --watch --livereload #{args}"
+  end
+end
 
-  uri = URI "https://github.com/tailwindlabs/tailwindcss/releases/download/" \
-            "v#{TAILWIND_VERSION}/tailwindcss-#{os}-#{arch}"
-
-  response = Net::HTTP.get_response(uri)
-  case response.code.to_i
-  when 200
-    response.body
-  when 300..399
-    uri = URI response["Location"]
-    Net::HTTP.get(uri)
-  else
-    raise "Unable to download TailwindCSS CLI"
+namespace :tailwindcss do
+  desc "Watch for changes and rebuild stylesheets"
+  task :watch do
+    system "pnpm run watch"
   end
 end
 

@@ -1,0 +1,11 @@
+/.git
+/.github
+/.gitignore
+/.jekyll-cache
+/.pnpm-store
+/.ruby-lsp
+/_site
+/assets
+/node_modules
+/vendor/*
+!/vendor/.keep

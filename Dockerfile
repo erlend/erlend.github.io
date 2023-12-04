@@ -1,26 +1,26 @@
-# Should have the same version as .gitlab-ci.yml
 FROM ruby:3.2 as base
-ENV TAILWIND_BIN="/usr/local/bin/tailwindcss"
+
+ENV PNPM_HOME=/usr/local/pnpm
+ENV PATH="$PNPM_HOME:$PATH"
+
+# Install pnpm and NodeJS
+RUN curl -fsSL https://get.pnpm.io/install.sh | SHELL=bash sh - \
+ && pnpm env add --global lts \
+ && ln -s $PNPM_HOME/nodejs/*/bin/node /usr/local/bin/ \
+ && rm /root/.bashrc
+
+FROM base AS build
+ENV JEKYLL_ENV=production
 WORKDIR /code
 
-FROM base AS dependencies
-
-# Install additional system dependencies
-# RUN apt-get update \
-#  && apt-get install --yes cowsay \
-#  && rm -rf /var/lib/apt/lists/*
-
-# Install Jekyll and plugins
-COPY _config.yml Rakefile Gemfile Gemfile.lock ./
-RUN bundle config build.nokogiri --use-system-libraries
+# Install Node.js packages
+# Install dependencies
+COPY _config.yml Rakefile Gemfile Gemfile.lock package.json pnpm-lock.yaml ./
 RUN rake setup
 
 # Build site
-FROM base AS build
-COPY --from=dependencies "$GEM_HOME" "$GEM_HOME"
-COPY --from=dependencies "$TAILWIND_BIN" "$TAILWIND_BIN"
 COPY . .
-RUN JEKYLL_ENV=production rake build
+RUN rake build
 
 # Create release stage
 FROM nginx:1
