@@ -10,10 +10,10 @@ begin
 
   desc "Check HTML for errors"
   task :htmlproofer => :environment do
-    output_dir = File.join(__dir__, SITE.fetch("destination", "_site"))
+    output_dir = File.join(__dir__, @site.fetch("destination", "_site"))
     Rake::Task["jekyll:build"].invoke if Dir.empty?(output_dir)
 
-    base_url = SITE["base_url"]
+    base_url = @site["base_url"]
     options = {
       :check_sri           => true,
       :check_external_hash => true,
@@ -34,17 +34,16 @@ rescue LoadError
   puts "Some dependencies are missing. Run `rake setup` to fix this."
 end
 
-task build: "jekyll:build"
-
+task :build => "jekyll:build" # rubocop:disable Rake/Desc
 task :environment do # rubocop:disable Rake/Desc
   require "bundler"
   require "uri"
   require "yaml"
 
-  tailwindcss_path  = find_executable("tailwindcss") || "node_modules/.bin/tailwindcss"
+  tailwindcss_path = find_executable("tailwindcss") || "node_modules/.bin/tailwindcss"
   ENV["JEKYLL_MINIBUNDLE_CMD_CSS"] ||= File.expand_path(tailwindcss_path)
   ENV["JEKYLL_MINIBUNDLE_MODE"] ||= ENV.fetch("JEKYLL_ENV", nil)
-  SITE = YAML.safe_load_file File.join(__dir__, "_config.yml")
+  @site = YAML.safe_load_file File.join(__dir__, "_config.yml")
 end
 
 desc "Setup build tools"
@@ -92,8 +91,9 @@ namespace :jekyll do
     system "bundle exec jekyll build"
   end
 
+  desc "Run Jekyll server"
   task :serve => :environment do
-    host = ENV["JEKYLL_HOST"]
+    host = ENV.fetch("JEKYLL_HOST", nil)
     args = "--host #{host}" if host
     system "bundle exec jekyll serve --watch --livereload #{args}"
   end
