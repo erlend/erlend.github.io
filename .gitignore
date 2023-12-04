@@ -1,6 +1,5 @@
 .gitlab-ci-local
 .jekyll-cache
-mkmf.log
 /_site
 /assets
 /public

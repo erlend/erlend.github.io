@@ -53,7 +53,6 @@ exclude:
   - Procfile
   - Rakefile
   - README.md
-  - mkmf.log
   - tailwindcss.config.js
   - vendor
 
