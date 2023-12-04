@@ -1,7 +1,7 @@
 {
-  "src/_assets/*": { "type": "asset" },
-  "src/_assets/javascripts/*.js": { "type": "javascript" },
-  "src/_assets/javascripts/controllers/*_controller.js": {
+  "_assets/*": { "type": "asset" },
+  "_assets/javascripts/*.js": { "type": "javascript" },
+  "_assets/javascripts/controllers/*_controller.js": {
     "type": "controller",
     "template": [
       "import {open} Controller {close} from \"@hotwired/stimulus\"",
@@ -13,14 +13,14 @@
       "{close}"
     ]
   },
-  "src/_assets/stylesheets/application.css": { "type": "stylesheet" },
-  "src/_assets/stylesheets/*.css": { "type": "stylesheet" },
-  "src/_data/*": { "type": "data" },
-  "src/_data/locales/*.yml": { "type": "locale" },
-  "src/_includes/*": { "type": "include" },
-  "src/_layouts/*.html": { "type": "layout" },
-  "src/_plugins/*.rb": { "type": "plugin" },
-  "src/_posts/*.md": {
+  "_assets/stylesheets/application.css": { "type": "stylesheet" },
+  "_assets/stylesheets/*.css": { "type": "stylesheet" },
+  "_data/*": { "type": "data" },
+  "_data/locales/*.yml": { "type": "locale" },
+  "_includes/*": { "type": "include" },
+  "_layouts/*.html": { "type": "layout" },
+  "_plugins/*.rb": { "type": "plugin" },
+  "_posts/*.md": {
     "type": "post",
     "template": [
       "---",
@@ -28,5 +28,5 @@
       "---"
     ]
   },
-  "*": { "start": "bin/dev up --build --detach" }
+  "*": { "start": "rake dev" }
 }
