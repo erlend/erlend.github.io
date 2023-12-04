@@ -1,6 +1,6 @@
 {% assign image = include.image | default: page.image | default: site.image -%}
 {% assign class = include.class | default: 'mx-auto h-24 p-1 sm:h-48 sm:p-2' -%}
-<img class="bg-white rounded-full mx-auto dark:bg-slate-700 {{ class }}"
+<img class="bg-white rounded-full dark:bg-slate-700 {{ class }}"
      alt="Me"
      src="{% ministamp {
             destination_path: '/assets/images/{{ image }}',
