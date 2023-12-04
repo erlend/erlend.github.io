@@ -10,5 +10,5 @@ layout: none
   "icons": [
     {"src": "{{ site.base_url }}/{% ministamp _assets/images/android-chrome-192x192.png assets/images/android-chrome-192x192.png %}", "sizes": "192x192", "type": "image/png"},
     {"src": "{{ site.base_url }}/{% ministamp _assets/images/android-chrome-512x512.png assets/images/android-chrome-512x512.png %}", "sizes": "512x512", "type": "image/png"}
-  ],
+  ]
 }
