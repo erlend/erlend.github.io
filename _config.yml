@@ -56,7 +56,7 @@ exclude:
   - Procfile
   - Rakefile
   - README.md
-  - tailwindcss.config.js
+  - tailwind.config.js
   - vendor
 
 # Bundle stylesheets with Tailwind CLI
