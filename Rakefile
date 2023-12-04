@@ -38,7 +38,6 @@ end
 
 task :configuration do # rubocop:disable Rake/Desc
   require "bundler"
-  require "mkmf"
   require "pathname"
   require "uri"
   require "yaml"
@@ -48,7 +47,7 @@ task :configuration do # rubocop:disable Rake/Desc
 end
 
 task :environment => :configuration do # rubocop:disable Rake/Desc
-  path = MakeMakefile.find_executable("tailwindcss") ||
+  path = find_executable("tailwindcss") ||
     ENV.fetch("TAILWIND_BIN", "vendor/bin/tailwindcss")
 
   @tailwindcss = path.start_with?("/") ? Pathname.new(path) : @root.join(path)
@@ -67,7 +66,7 @@ multitask :setup => %w(setup:bundler setup:tailwindcss)
 
 desc "Run development server"
 task :dev => :configuration do
-  if MakeMakefile.find_executable("docker") && system("docker compose version &>/dev/null")
+  if find_executable("docker") && system("docker compose version &>/dev/null")
     Rake::Task["dev_server:docker"].invoke
   else
     Rake::Task["dev_server:foreman"].invoke
@@ -83,7 +82,7 @@ namespace :dev_server do
 
   desc "Run development server with Foreman"
   task :foreman => :setup do
-    MakeMakefile.find_executable("foreman") || system!("gem install foreman")
+    find_executable("foreman") || system!("gem install foreman")
     args = ENV.fetch("DEV_SERVER_ARGS", nil)
     system!("foreman start #{args}")
   end
@@ -126,6 +125,13 @@ def download_tailwindcss
     Net::HTTP.get(uri)
   else
     raise "Unable to download TailwindCSS CLI"
+  end
+end
+
+def find_executable(command)
+  ENV["PATH"].split(File::PATH_SEPARATOR).find do |path|
+    command_path = File.join(path, command)
+    command_path if File.executable?(command_path)
   end
 end
 
