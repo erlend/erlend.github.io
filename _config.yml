@@ -63,4 +63,4 @@ exclude:
 minibundle:
   mode: development
   minifier_commands:
-    css: vendor/bin/tailwindcss --minify --input -
+    css: node_modules/.bin/tailwindcss --minify --input -

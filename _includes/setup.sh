@@ -316,7 +316,8 @@ EOF
 }
 
 if [[ "$UID" -eq 0 ]]; then
-  red "Do not run this script as a root user\n"
+  red "Do not run this script as a root user"
+  echo
   exit 1
 fi
 
@@ -343,7 +344,8 @@ case $OS in
     fi
     ;;
   *)
-    red "Unsupported Operating System\n"
+    red "Unsupported Operating System"
+    echo
     exit 1
     ;;
 esac
