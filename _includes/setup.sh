@@ -24,6 +24,18 @@ trap - SIGINT
 PATH="$HOME/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin:/opt/homebrew/bin:$PATH"
 
 # shellcheck disable=SC2034
+use_touch_id_for_sudo_name="Enable TouchID for sudo"
+use_touch_id_for_sudo() {
+  if [ -f /etc/pam.d/sudo_local ]; then
+    log "Found existing /etc/pam.d/sudo_local"
+    current_status=FOUND
+    return 0
+  fi
+
+  sed -E 's/^#auth/auth/' /etc/pam.d/sudo_local.template | sudo tee /etc/pam.d/sudo_local
+}
+
+# shellcheck disable=SC2034
 macos_command_line_tools_name="Install Command Line Tools"
 macos_command_line_tools() {
   if xcode-select --print-path 2>/dev/null; then
@@ -315,7 +327,7 @@ declare -a pending_tasks
 
 case $OS in
   Darwin)
-    pending_tasks=(macos_command_line_tools macos_rosetta)
+    pending_tasks=(use_touch_id_for_sudo macos_command_line_tools macos_rosetta)
     start_setup_for macOS
     ;;
   Linux)
