@@ -1,4 +1,4 @@
-FROM ruby:3.2 as base
+FROM ruby:3.3 as base
 
 ENV PNPM_HOME=/usr/local/pnpm
 ENV PATH="$PNPM_HOME:$PATH"
