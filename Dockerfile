@@ -6,9 +6,8 @@ WORKDIR /code
 FROM base AS build
 ENV JEKYLL_ENV=production
 
-# Install Node.js packages
 # Install dependencies
-COPY mise.toml Gemfile Gemfile.lock package.json pnpm-lock.yaml ./
+COPY .mise.toml Gemfile Gemfile.lock package.json pnpm-lock.yaml ./
 RUN mise run setup
 
 # Build site

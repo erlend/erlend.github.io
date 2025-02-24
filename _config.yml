@@ -54,11 +54,10 @@ exclude:
   - package.json
   - pnpm-lock.yaml
   - README.md
-  - tailwind.config.js
   - vendor
 
 # Bundle stylesheets with Tailwind CLI
 minibundle:
   mode: development
   minifier_commands:
-    css: node_modules/.bin/tailwindcss --minify --input -
+    css: npx @tailwindcss/cli --minify --input -

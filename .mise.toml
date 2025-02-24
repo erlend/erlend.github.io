@@ -18,7 +18,7 @@ outputs = {auto = true}
 [tasks."setup:js"]
 hide = true
 run = ["pnpm install"]
-sources = ["package.json", "pnpm-lock.yaml", "mise.toml"]
+sources = ["package.json", "pnpm-lock.yaml", ".mise.toml"]
 outputs = ["node_modules/.pnpm/lock.yaml"]
 
 [tasks.setup]
@@ -30,6 +30,7 @@ description = "Build the site"
 depends = ["setup"]
 env.JEKYLL_ENV = "production"
 env.JEKYLL_MINIBUNDLE_MODE = "production"
+env.JEKYLL_MINIBUNDLE_CMD_CSS = "pnpx @tailwindcss/cli --minify --input -"
 run = "bundle exec jekyll build"
 
 [tasks.server]
@@ -44,7 +45,7 @@ run = "bundle exec jekyll"
 
 [tasks."tailwindcss:watch"]
 hide = true
-run = "tailwindcss --watch --input=_assets/stylesheets/application.css --output=assets/tailwind.css"
+run = "pnpx @tailwindcss/cli --watch --input=_assets/stylesheets/application.css --output=assets/tailwind.css"
 
 [tasks."lint:ruby"]
 hide = true
