@@ -1,32 +1,17 @@
-version: "3"
-
-volumes:
-  ruby_gems:
-  node_modules:
-
-x-default: &default
-  build:
-    context: .
-    target: base
-  volumes:
-    - .:${PWD:-/web}
-    - ruby_gems:/usr/local/bundle
-    - node_modules:${PWD:-/web}/node_modules
-  working_dir: ${PWD:-/web}
-
 services:
   web:
-    <<: *default
-    command: rake setup:bundler jekyll:serve
-    environment:
-      JEKYLL_HOST: 0.0.0.0
+    command: mise run server --host=0.0.0.0
+    build:
+      context: .
+      target: base
+    volumes:
+      - .:/code
+      - mise_data:/mise
+      - node_modules:/code/node_modules
     ports:
       - 4000:4000
       - 35729:35729
-    depends_on:
-      - css
 
-  css:
-    <<: *default
-    command: rake setup:pnpm tailwindcss:watch
-    tty: true
+volumes:
+  mise_data:
+  node_modules:

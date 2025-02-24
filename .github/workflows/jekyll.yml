@@ -1,5 +1,12 @@
 name: Jekyll
 on: [push]
+
+env:
+  # Install Ruby gems to vendor/bundle folder for caching purposes
+  BUNDLE_PATH: vendor/bundle
+  # Enable experimental Mise feature for hooks to work
+  MISE_EXPERIMENTAL: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -7,31 +14,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.2"
-          bundler-cache: true
+      - name: Set up build tools
+        uses: jdx/mise-action@v2
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+      - name: Cache Ruby gems
+        uses: actions/cache@v2
         with:
-          version: 8
-          run_install: false
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+      - name: Cache Node modules
+        uses: actions/cache@v2
         with:
-          node-version: 20.x
-          cache: pnpm
-
-      - name: Install dependencies
-        run: bundle exec rake setup
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Build website
-        run: bundle exec rake build
-        env:
-          JEKYLL_ENV: production
+        run: mise run build
 
       - name: Fix permissions
         run: |
@@ -40,10 +43,10 @@ jobs:
           done
 
       - name: Check HTML syntax
-        run: bundle exec rake htmlproofer
+        run: mise run lint:html
 
       - name: Check Ruby syntax
-        run: bundle exec rake rubocop
+        run: mise run lint:ruby --format=github
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

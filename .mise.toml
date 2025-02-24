@@ -1,0 +1,73 @@
+[env]
+_.path = ["./node_modules/.bin"]
+
+[hooks]
+postinstall = "npx corepack enable"
+
+[tools]
+ruby = "3.2.2"
+node = "22"
+"aqua:nektos/act" = "latest"
+
+[tasks."setup:ruby"]
+hide = true
+run = "bundle install"
+sources = ["Gemfile", "Gemfile.lock", ".mise.toml"]
+outputs = {auto = true}
+
+[tasks."setup:js"]
+hide = true
+run = ["pnpm install"]
+sources = ["package.json", "pnpm-lock.yaml", "mise.toml"]
+outputs = ["node_modules/.pnpm/lock.yaml"]
+
+[tasks.setup]
+description = "Install dependencies"
+depends = ["setup:ruby", "setup:js"]
+
+[tasks.build]
+description = "Build the site"
+depends = ["setup"]
+env.JEKYLL_ENV = "production"
+env.JEKYLL_MINIBUNDLE_MODE = "production"
+run = "bundle exec jekyll build"
+
+[tasks.server]
+alias = ["dev"]
+description = "Start the development server"
+depends = ["setup"]
+run = ["mise run tailwindcss:watch ::: jekyll serve --watch --livereload"]
+
+[tasks.jekyll]
+hide = true
+run = "bundle exec jekyll"
+
+[tasks."tailwindcss:watch"]
+hide = true
+run = "tailwindcss --watch --input=_assets/stylesheets/application.css --output=assets/tailwind.css"
+
+[tasks."lint:ruby"]
+hide = true
+run = "bundle exec rubocop"
+
+[tasks."lint:html"]
+hide = true
+run = "bundle exec htmlproofer _site --check-sri"
+
+[tasks."config:get"]
+hide = true
+quiet = true
+run = """
+#!/usr/bin/env ruby -ryaml
+
+data = YAML.load_file("_config.yml")
+
+ARGV.each do |arg|
+  print "#{arg}: " unless ARGV.one?
+  puts data.dig(*arg.split("."))
+end
+"""
+
+[tasks.lint]
+description = "Lint the source code"
+depends = ["lint:html", "lint:ruby"]
