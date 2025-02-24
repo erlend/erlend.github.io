@@ -1,26 +1,19 @@
-FROM ruby:3.4 as base
-
-ENV PNPM_HOME=/usr/local/pnpm
-ENV PATH="$PNPM_HOME:$PATH"
-
-# Install pnpm and NodeJS
-RUN curl -fsSL https://get.pnpm.io/install.sh | SHELL=bash sh - \
- && pnpm env add --global lts \
- && ln -s $PNPM_HOME/nodejs/*/bin/node /usr/local/bin/ \
- && rm /root/.bashrc
+FROM jdxcode/mise AS base
+ENV MISE_EXPERIMENTAL=true
+ENV MISE_TRUSTED_CONFIG_PATHS=/code
+WORKDIR /code
 
 FROM base AS build
 ENV JEKYLL_ENV=production
-WORKDIR /code
 
 # Install Node.js packages
 # Install dependencies
-COPY _config.yml Rakefile Gemfile Gemfile.lock package.json pnpm-lock.yaml ./
-RUN rake setup
+COPY mise.toml Gemfile Gemfile.lock package.json pnpm-lock.yaml ./
+RUN mise run setup
 
 # Build site
 COPY . .
-RUN rake build
+RUN mise run build
 
 # Create release stage
 FROM nginx:1

@@ -53,8 +53,6 @@ exclude:
   - node_modules
   - package.json
   - pnpm-lock.yaml
-  - Procfile
-  - Rakefile
   - README.md
   - tailwind.config.js
   - vendor
