@@ -12,8 +12,8 @@ importers:
         specifier: ^4.0.11
         version: 4.0.11
       tailwindcss:
-        specifier: ^4.0.9
-        version: 4.0.9
+        specifier: ^4.0.12
+        version: 4.0.12
 
 packages:
 
@@ -301,8 +301,8 @@ packages:
   tailwindcss@4.0.11:
     resolution: {integrity: sha512-GZ6+tNwieqvpFLZfx2tkZpfOMAK7iumbOJOLmd6v8AcYuHbjUb+cmDRu6l+rFkIqarh5FfLbCSRJhegcVdoPng==}
 
-  tailwindcss@4.0.9:
-    resolution: {integrity: sha512-12laZu+fv1ONDRoNR9ipTOpUD7RN9essRVkX36sjxuRUInpN7hIiHN4lBd/SIFjbISvnXzp8h/hXzmU8SQQYhw==}
+  tailwindcss@4.0.12:
+    resolution: {integrity: sha512-bT0hJo91FtncsAMSsMzUkoo/iEU0Xs5xgFgVC9XmdM9bw5MhZuQFjPNl6wxAE0SiQF/YTZJa+PndGWYSDtuxAg==}
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -527,7 +527,7 @@ snapshots:
 
   tailwindcss@4.0.11: {}
 
-  tailwindcss@4.0.9: {}
+  tailwindcss@4.0.12: {}
 
   tapable@2.2.1: {}
 
