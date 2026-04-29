@@ -8,22 +8,8 @@ environment variable "JEKYLL_ENV" to "development" or "production".
 The main difference between the two is that in production the output file is
 minified and its MD5 hash is added to the filename for cache-busting.
 {% endcomment %}
-{% if jekyll.environment == "production" %}
-{% minibundle css %}
-source_dir: _assets/stylesheets
-assets: [application]
-baseurl: "{{ site.baseurl }}/"
-attributes:
-  media: screen, projection
-  "data-turbo-track": reload
-{% endminibundle %}
-{% else %}
-{% comment %}
-Use tailwindcss-cli in development for close to instant updates.
-{% endcomment %}
 <link
     rel="stylesheet"
-    href="{{ '/assets/tailwind.css' | relative_url }}"
+    href="{{ site.baseurl }}{% ministamp _tmp/tailwind.css assets/styles.css %}"
     media="screen, projection"
     data-turbo-track="reload">
-{% endif %}

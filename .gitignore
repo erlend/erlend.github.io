@@ -6,3 +6,5 @@
 /public
 /vendor/*
 !/vendor/.keep
+/_tmp/*
+!/_tmp/.keep

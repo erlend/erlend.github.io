@@ -1,57 +1,54 @@
-[env]
-_.path = ["./node_modules/.bin"]
-
-[hooks]
-postinstall = "npx corepack enable"
-
 [tools]
 ruby = "3.2.2"
-node = "22"
 "aqua:nektos/act" = "latest"
-
-[tasks."setup:ruby"]
-hide = true
-run = "bundle install"
-sources = ["Gemfile", "Gemfile.lock", ".mise.toml"]
-outputs = {auto = true}
-
-[tasks."setup:js"]
-hide = true
-run = ["pnpm install"]
-sources = ["package.json", "pnpm-lock.yaml", ".mise.toml"]
-outputs = ["node_modules/.pnpm/lock.yaml"]
 
 [tasks.setup]
 description = "Install dependencies"
-depends = ["setup:ruby", "setup:js"]
+run = "bundle install"
+sources = ["Gemfile", ".mise.toml"]
+outputs = ["Gemfile.lock"]
 
 [tasks.build]
 description = "Build the site"
-depends = ["setup"]
+depends = ["setup", "tailwindcss:build"]
 env.JEKYLL_ENV = "production"
 env.JEKYLL_MINIBUNDLE_MODE = "production"
-env.JEKYLL_MINIBUNDLE_CMD_CSS = "pnpx @tailwindcss/cli --minify --input -"
 run = "bundle exec jekyll build"
 
 [tasks.server]
 alias = ["dev"]
 description = "Start the development server"
-depends = ["setup"]
-run = ["mise run tailwindcss:watch ::: jekyll serve --watch --livereload"]
+run = [{ tasks = ["tailwindcss:watch", "jekyll:serve"] }]
 
 [tasks.jekyll]
 hide = true
+depends = ["setup"]
 run = "bundle exec jekyll"
+
+[tasks."jekyll:serve"]
+hide = true
+run = [{ task = "jekyll", args = ["serve", "--watch", "--livereload"] }]
+
+[tasks.tailwindcss]
+description = "Run tailwindcss-cli tasks"
+depends = ["setup"]
+run = "bundle exec tailwindcss --input=_assets/stylesheets/application.css --output=_tmp/tailwind.css"
+
+[tasks."tailwindcss:build"]
+hide = true
+run = [{ task = "tailwindcss", args = ["--minify"] }]
 
 [tasks."tailwindcss:watch"]
 hide = true
-run = "pnpx @tailwindcss/cli --watch --input=_assets/stylesheets/application.css --output=assets/tailwind.css"
+run = [{ task = "tailwindcss", args = ["--watch"] }]
 
 [tasks."lint:ruby"]
+depends = ["setup"]
 hide = true
 run = "bundle exec rubocop"
 
 [tasks."lint:html"]
+depends = ["setup"]
 hide = true
 run = "bundle exec htmlproofer _site --check-sri"
 

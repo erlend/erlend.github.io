@@ -6,6 +6,7 @@ gem "rainbow"
 gem "rake"
 gem "webrick"
 gem "word_wrap"
+gem "tailwindcss-ruby", "~> 4.2"
 
 group :jekyll_plugins do
   gem "jekyll-environment-variables"
