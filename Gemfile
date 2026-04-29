@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "rainbow"
 gem "rake"
+gem "tailwindcss-ruby", "~> 4.2"
 gem "webrick"
 gem "word_wrap"
 
