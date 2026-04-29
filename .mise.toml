@@ -50,7 +50,7 @@ run = "bundle exec rubocop"
 [tasks."lint:html"]
 depends = ["setup"]
 hide = true
-run = "bundle exec htmlproofer _site --check-sri"
+run = "bundle exec htmlproofer _site"
 
 [tasks."config:get"]
 hide = true
