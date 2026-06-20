@@ -7,7 +7,7 @@ FROM base AS build
 ENV JEKYLL_ENV=production
 
 # Install dependencies
-COPY .mise.toml Gemfile Gemfile.lock package.json pnpm-lock.yaml ./
+COPY .mise.toml Gemfile Gemfile.lock ./
 RUN mise run setup
 
 # Build site

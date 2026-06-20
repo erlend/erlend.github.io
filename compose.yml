@@ -1,0 +1,41 @@
+services:
+  setup: &app
+    command: run setup
+    build:
+      context: .
+      target: base
+    volumes:
+      - .:/code
+      - mise_data:/mise
+      - shared_tmp:/code/_tmp
+
+  jekyll:
+    <<: *app
+    command: run jekyll serve --host=0.0.0.0 --livereload --watch
+    depends_on:
+      setup:
+        restart: true
+        condition: service_completed_successfully
+      tailwindcss:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000"]
+    ports:
+      - 4000:4000
+      - 35729:35729
+
+  tailwindcss:
+    <<: *app
+    command: run tailwindcss:watch
+    depends_on:
+      setup:
+        restart: true
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "test", "-f", "_tmp/tailwind.css"]
+      interval: 10s
+      timeout: 1s
+
+volumes:
+  shared_tmp:
+  mise_data:
