@@ -3,902 +3,1803 @@ VERSION:2.0
 PRODID:icalendar-ruby
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:95b10ac6-9bf9-4a81-ad88-6d1189297886
+DTSTAMP:20260620T174341Z
+UID:2b3eb7cc-c952-41a9-9c36-0fca27934bb8
 DTSTART:20260624T140000
 DTEND:20260624T145000
-DESCRIPTION:Black Debbath at Scream stage
+DESCRIPTION:Det finnes tradisjoner\, og så finnes det Black Debbath på To
+ ns of Rock.Bandet har blitt festivalens uoffisielle husband\, de som år e
+ tter år åpner ballet\, blåser søvnen ut av publikums ører og setter s
+ tandarden for resten av festivalen.\nSiden slutten av 90-tallet har Black 
+ Debbath kombinert tungrock\, politisk satire og tørre punchlines på en m
+ åte ingen andre kommer unna med. Med medlemmer fra Duplex-universet\, Egi
+ l Hegerberg\, Lars Lønning\, Aslag Guttormsgaard og Ollis\, har de skapt 
+ nasjonale kulturskatter som ‘Mongo Norway’\, ‘Problemer innad i Høy
+ re’ og ‘Motörhedda Gabler’.\nPå scenen er de like deler seriøs ro
+ ckemaskin og absurd teater\, og nettopp derfor er åpningen med Black Debb
+ ath blitt noe publikum forventer og gleder seg til. Det er rett og slett i
+ kke Tons of Rock uten dem.\nBlack Debbath er tilbake i 2026 og er som allt
+ id først ut\, klare for å erklære festivalen offisielt åpnet med sin h
+ elt egne blanding av tungrock og samfunnssatire.
 LOCATION:Scream stage
 SUMMARY:Black Debbath
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288506
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:ca359eaf-c216-4d9d-ad29-8012f8aa1ff5
+DTSTAMP:20260620T174341Z
+UID:20c7810f-3f46-45e1-ad35-7ebb3b871cfc
 DTSTART:20260624T155500
 DTEND:20260624T165500
-DESCRIPTION:Trivium at Scream stage
+DESCRIPTION:Trivium er et av de mest toneangivende bandene i moderne metal\
+ , og med sitt tiende album In The Court of the Dragon beviser de hvorfor. 
+ Albumet markerer et nytt høydepunkt i karrieren deres: et massivt\, melod
+ isk og teknisk presist verk som både henter kraft fra bandets historie og
+  peker fremover mot hvor metal kan gå i årene som kommer.\nEtter 22 år\
+ , over én million solgte album\, hundrevis av utsolgte konserter og en GR
+ AMMY-nominasjon for “Betrayer”\, står Matt Heafy\, Corey Beaulieu\, P
+ aolo Gregoletto og Alex Bent sterkere sammen enn noen gang. Deres gjennomb
+ rudd Ascendancy ble kåret til “Album of the Year” av Kerrang! i 2005 
+ og er senere trukket frem som et av århundrets viktigste metalalbum av Me
+ tal Hammer. Siden har de levert seks strake Top 25-plasseringer på Billbo
+ ard 200 og tatt musikken sin fra klubbscener til arenastørrelse\, side om
+  side med band som Metallica\, Iron Maiden og Slipknot.\nNår Trivium komm
+ er til Tons of Rock 2026\, er det med et band som er i sitt livs form  og
+  med et liveuttrykk som forener energi\, presisjon og låtskriverkunst på
+  et nivå få andre i sjangeren kan matche.
 LOCATION:Scream stage
 SUMMARY:Trivium
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288850
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:c3e81ae0-3f66-49dd-9731-9da220fa3531
+DTSTAMP:20260620T174341Z
+UID:0c0c3a94-95f7-4264-b6d7-b5a977235906
 DTSTART:20260624T181500
 DTEND:20260624T192500
-DESCRIPTION:DumDum Boys at Scream stage
+DESCRIPTION:DumDum Boys oppsto i Trondheim i 1979 under navnet Wannskrækk\
+ , i kjølvannet av britisk punk da band som Sex Pistols og The Clash hadde
+  fått ungdom på begge sider av Nordsjøen til å tro at tre grep kunne f
+ orandre verden. På midten av 80-tallet tok de navnet DumDum Boys og skrev
+  seg inn i kjernen av norsk rockhistorie. Ikke bare som nostalgi\, men som
+  et levende bindeledd mellom generasjoner.\nSiden 1980-tallet har de blitt
+  hyllet som Norges fremste liveband\, en merkelapp som bare har blitt ster
+ kere med årene. Konsertene deres er drevet av rå energi\, humor og et sc
+ enehåndverk som gjør opplevelsene uforglemmelige. Nye fans oppdager stad
+ ig bandet\, samtidig som de trofaste følgerne forblir like lojale.\nTidli
+ gere i år ble konsertene i Norges fire største byer utsolgt nærmest umi
+ ddelbart\, et bevis på at musikken deres treffer like sterkt som alltid. 
+ Sommeren 2026 tar DumDum Boys med seg sin uovervinnelige liveenergi til et
+  utvalg festivaler\, blant annet Norges største festival\; Tons of Rock. 
+ For rock handler ikke om fortid eller fremtid – men om øyeblikket når 
+ sangene treffer kroppen: hardt\, presist og uunngåelig.
 LOCATION:Scream stage
 SUMMARY:DumDum Boys
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284325
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:e63ce773-cba0-4e4f-965a-c57b81f87e93
+DTSTAMP:20260620T174341Z
+UID:712c2a9a-fdaf-487f-a08e-2d843b4cc9f2
 DTSTART:20260624T212500
 DTEND:20260624T225500
-DESCRIPTION:Bring Me The Horizon at Scream stage
+DESCRIPTION:Bring Me the Horizon er et av verdens mest suksessrike rockeban
+ d\, med Grammy-nominasjoner\, BRIT Award-pris og over 7\,2 millioner solgt
+ e album globalt. Bandet har spilt utsolgte konserter i mer enn 50 land og 
+ er anerkjente festivalheadlinere over hele verden. Bare i 2024 spilte de f
+ or over 300 000 fans\, inkludert 140 000 på sin største arenaturné i St
+ orbritannia og Irland noensinne\, og 70 000 på en sju-dagers turné i Aus
+ tralia.\nDe startet sin POST HUMAN-æra i 2020 med EP-en POST HUMAN: Survi
+ val Horror\, som gikk rett til topps på de britiske albumlistene. Tidlige
+ re utgivelser som det gull-sertifiserte albumet amo (2019) ga dem Grammy-n
+ ominasjoner for både beste rockealbum og beste rockesang (MANTRA)\, og i 
+ 2024 vant de BRIT Award for "Best Alt/Rock Act"\, foran ikoner som Rolling
+  Stones og Blur.\nDeres sjuende studioalbum POST HUMAN: NeX GEn ble sluppe
+ t i mai 2024 og nådde topp 5 i Storbritannia. Singlene LosT\, AmEN!\, DAr
+ kSide\, Kool-Aid og Top 10 staTues tHat CriEd blood har til sammen passert
+  324 millioner streams. Bandet annonserte også sin første stadionkonsert
+  i São Paulo\, Brasil\, etter å ha headlinet over 14 europeiske festival
+ er denne sommeren – før de setter kursen mot Japan for å spille på Su
+ mmersonic.\nMed over én milliard visninger på YouTube og en plass blant 
+ verdens 500 mest strømmede artister\, har Bring Me the Horizon befestet s
+ in posisjon som et av samtidens mest innflytelsesrike rockeband. Vi er eks
+ tatiske av å kunne ønske de velkommen tilbake til Tons of Rock i 2026!
 LOCATION:Scream stage
 SUMMARY:Bring Me The Horizon
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284320
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:90a0153a-c5ff-4f66-8209-5f271582249f
+DTSTAMP:20260620T174341Z
+UID:9f8ce58f-f197-49ae-87a2-a1080dc631b4
 DTSTART:20260624T145500
 DTEND:20260624T154500
-DESCRIPTION:Cavalera Conspiracy at Vampire Stage
+DESCRIPTION:Cavalera spiller Chaos A.D. på Tons of Rock 2026!\nBrødrene M
+ ax og Iggor Cavalera\, grunnleggerne av legendariske Sepultura\, er tilbak
+ e på Tons of Rock\, og denne gangen tar de med seg et av de mest innflyte
+ lsesrike albumene i metalhistorien: Chaos A.D.\nUtgitt i 1993\, står plat
+ a igjen som et tidløst høydepunkt\, en eksplosjon av thrash\, groove og 
+ samfunnsraseri som forandret metalsjangeren for alltid. Låter som ‘Refu
+ se/Resist’\, ‘Territory’ og ‘Slave New World’ ble signaturlåter
+  for en hel generasjon\, og tre tiår senere føles de fortsatt like aktue
+ lle.\nNår Cavalera fremfører Chaos A.D. i sin helhet på Tons of Rock 20
+ 26\, er det mer enn et nostalgisk tilbakeblikk\, det er en påminnelse om 
+ hvorfor albumet fremdeles regnes som et av 90-tallets mest kraftfulle og b
+ etydningsfulle utgivelser.\nDette blir et av årets mest etterlengtede øy
+ eblikk for metalfans. 
 LOCATION:Vampire Stage
 SUMMARY:Cavalera Conspiracy
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284321
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:0b53cbe4-d969-41d2-852b-0f3564d14520
+DTSTAMP:20260620T174341Z
+UID:774bc0f7-cbfa-44f6-a50b-c58e38bfb45e
 DTSTART:20260624T170500
 DTEND:20260624T180500
-DESCRIPTION:Babymetal at Vampire Stage
+DESCRIPTION:BABYMETAL til Tons of Rock 2026!\nIngen kombinerer metall og po
+ p som BABYMETAL. Siden starten i 2010 har de japanske pionerene snudd opp 
+ ned på hva metall kan være: en eksplosiv miks av harde riff\, koreografi
+ \, kostymer og grenseløs energi. Bandet er et fenomen som har tatt verden
+  med storm.\nBandet skrev historie da de som første japanske artist headl
+ inet Wembley Arena i 2016\, og få år senere stod på scenen på Glastonb
+ ury Festival\, en opptreden som ble omtalt verden over. Derfra fulgte META
+ L GALAXY WORLD TOUR\, og utgivelsen av albumet ‘Metal Galaxy’ som nåd
+ de 13. plass på Billboard 200 og gikk rett til topps på både den amerik
+ anske og britiske rocklisten. En bragd ingen asiatisk artist hadde oppnåd
+ d før dem.\nEtter en pause på to år kom de tilbake i 2023 med konseptal
+ bumet ‘The Other One’ og en rekke spektakulære konserter i Japan\, f
+ ør de la ut på turné med Sabaton i Europa. Med sin kompromissløse visj
+ on\, visuelle kraft og tekniske perfeksjon\, fortsetter BABYMETAL å redef
+ inere moderne metal og beviser at grensene mellom sjangre bare finnes for 
+ å brytes.\nVi gleder oss stort til å ønske Babymetal velkommen til Tons
+  of Rock for første gang! 
 LOCATION:Vampire Stage
 SUMMARY:Babymetal
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284315
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:7623c8a1-7add-493b-84d0-f0bb8a3843c1
+DTSTAMP:20260620T174341Z
+UID:a546361a-5285-4824-beb3-b738b2f6cf68
 DTSTART:20260624T194000
 DTEND:20260624T211000
-DESCRIPTION:The Offspring at Vampire Stage
+DESCRIPTION:… uno\, dos\, tres\, cuatro\, cinco\,cinco\, seis: The Offspr
+ ing til Tons of Rock 2026! \nMed over fire tiår på baken og et arsenal 
+ av hits som definerte en hel æra av punkrock\, er The Offspring klare for
+  å sette fyr på Tons of Rock 2026. Fra undergrunnsscenen i California p
+ å slutten av 80-tallet til internasjonal stjernestatus med Smash (1994) 
+ – tidenes mestselgende indie-utgivelse – har bandet alltid levert punk
+  med både attitude og humor.\nLåter som ‘Self Esteem’\, ‘Come Out 
+ and Play’\, ‘The Kids Aren’t Alright’ og ‘Pretty Fly (for a Whit
+ e Guy)’ ble soundtracket til en hel generasjon og sementerte The Offspri
+ ng som et av de mest innflytelsesrike punkrockbandene på 90-tallet.\nVoka
+ list Dexter Holland og gitarist Noodles leder fortsatt an med samme energi
+  og når de sist spilte i Norge høstet de lovord både fra publikum og an
+ meldere. \nHusk å snør Conversene ekstra godt på sletta for her blir d
+ et allsang og fest!
 LOCATION:Vampire Stage
 SUMMARY:The Offspring
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284336
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:5391c907-49ab-44ba-acfb-f2e04281b2bd
+DTSTAMP:20260620T174341Z
+UID:7346bc11-6d20-467c-b909-d2956e7fb3ad
 DTSTART:20260624T141000
 DTEND:20260624T145500
-DESCRIPTION:Die Spitz at Moonlight Stage
+DESCRIPTION:DIE SPITZ er et av de mest spennende nye navnene på den intern
+ asjonale punk- og rockescenen. Bandet fra Austin\, Texas ble startet i 202
+ 2 av Ava Schrobilgen\, Chloe De St. Aubin\, Eleanor Livingston og Kate Hal
+ ter – fire barndomsvenner som fant sammen i musikken og raskt ble omtalt
+  som en av de mest eksplosive liveopplevelsene i sin generasjon.\nDebutalb
+ umet Something to Consume (Third Man Records\, 2024) viser et band som bal
+ anserer mellom punk\, hardcore\, metal og alternativ rock\, alltid med kom
+ promissløs energi og en sterk sosial bevissthet. På scenen er de kjent f
+ or sitt utemmede kaos: stagediving\, cartwheels\, instrumentbytter midt i 
+ settet og en rå tilstedeværelse som har gjort dem til publikumsfavoritte
+ r.\nDIE SPITZ har allerede turnert bredt i USA og delt scene med band som 
+ OFF!\, Amyl and the Sniffers\, Viagra Boys og Sleater-Kinney. Selv om de b
+ are så vidt har rukket å fylle 20år\, har de markert seg som et band me
+ d en modenhet og kraft som langt overgår alderen.\nNår DIE SPITZ gjester
+  Tons of Rock 2026\, er det duket for en intens og uforutsigbar konsertopp
+ levelse fra et band som allerede er i ferd med å definere fremtiden til p
+ unk og alternativ rock.
 LOCATION:Moonlight Stage
 SUMMARY:Die Spitz
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284324
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:e3b5a3eb-d3fb-4ec9-b472-8088e6049881
+DTSTAMP:20260620T174341Z
+UID:3119463a-6864-4fa3-9f09-be686a80c17f
 DTSTART:20260624T152500
 DTEND:20260624T161000
-DESCRIPTION:President at Moonlight Stage
+DESCRIPTION:Det er ikke ofte et band dukker opp fra undergrunnen med en så
+  tydelig visjon som PRESIDENT. Med et uttrykk som beveger seg i grenseland
+ et mellom tung musikk\, elektroniske teksturer og filmatmosfære\, er dett
+ e et prosjekt som verken følger sjangerregler eller tradisjonelle bandkon
+ vensjoner.\nPRESIDENT handler ikke om ansiktene bak\, men om budskapet\, l
+ ydbildet og intensjonen. Det merkes allerede i debutsingelen “In The Nam
+ e of the Father”\, et mørkt og kompromissløst første kapittel som utf
+ orsker eksistensiell frykt og dødelighet. Låten peker mot noe større\, 
+ en hel verden bandet så vidt har begynt å åpne dørene til.\nPRESIDENTs
+  identitet er fortsatt innhyllet i skygger\, men én ting er tydelig: dett
+ e er et prosjekt som vil forme sin egen plass i den moderne heavy-scenen. 
+ Et kollektiv som lar musikken tale\, uten filter\, uten distraksjoner.\nP
+ å Tons of Rock 2026 får publikum oppleve PRESIDENT på vei inn i sin fø
+ rste virkelige epoke. Et nytt navn\, et mørkt univers\, og et band som al
+ lerede har fått undergrunnen til å lytte.
 LOCATION:Moonlight Stage
 SUMMARY:President
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288846
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:fa7063d2-cfcb-498f-90f3-40124c133e47
+DTSTAMP:20260620T174341Z
+UID:257883b3-98ab-4f0b-a463-d00037fe6ee8
 DTSTART:20260624T164500
 DTEND:20260624T173500
-DESCRIPTION:The Carburetors at Moonlight Stage
+DESCRIPTION:The Carburetors er et hardtslående rockeband fra Oslo som side
+ n 2001 har levert energisk rock’n’roll med inspirasjon fra Chuck Berry
+  og Motörhead. Med sitt karakteristiske uttrykk\, “Fast Forward Rock’
+ n’Roll”\, har de blitt et fast innslag på den norske rockescenen. Ban
+ det har gitt ut flere kritikerroste album\, blant annet Pain Is Temporary\
+ , Glory Is Forever (2004)\, Loud Enough to Raise the Dead (2006)\, Rock’
+ n Roll Forever (2008/2010)\, Laughing in the Face of Dead (2015) og Drinki
+ n’ from the Skull of Our Enemies (2023). De har også deltatt på hylles
+ talbum for Kiss og Ramones\, og nådde finalen i Melodi Grand Prix i 2012 
+ med låta Don’t Touch the Flame. Med utsolgte konserter og en lojal fans
+ kare er de klare for sitt 25-årsjubileum i 2026\, hvor et nytt album og e
+ n omfattende turné står på planen.
 LOCATION:Moonlight Stage
 SUMMARY:The Carburetors
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284335
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:245fa717-2884-4549-b255-be02871e6ba8
+DTSTAMP:20260620T174341Z
+UID:b332427e-1ba9-45d7-b315-fd5f92b40945
 DTSTART:20260624T185500
 DTEND:20260624T194500
-DESCRIPTION:Blood Incantation at Moonlight Stage
+DESCRIPTION:Blood Incantation fra Denver\, Colorado\, har siden 2011 marker
+ t seg som et av de mest nyskapende bandene innen moderne death metal. Med 
+ album som Starspawn (2016) og det kritikerroste Hidden History of the Huma
+ n Race (2019) har de kombinert teknisk brutalitet med psykedeliske og prog
+ ressive elementer\, og skapt et sound som peker både bakover til sjangere
+ ns røtter og fremover mot nye dimensjoner.\nI 2022 overrasket de med ambi
+ ent-utgivelsen Timewave Zero\, før de i 2024 fulgte opp med Absolute Else
+ where\, deres mest ambisiøse album til nå. Musikken deres er preget av k
+ osmiske konsepter\, mørk intensitet og en evne til å utfordre death meta
+ l-formatet.\nNår Blood Incantation spiller på Tons of Rock 2026\, kan pu
+ blikum vente seg en konsertopplevelse der brutale riff møter atmosfærisk
+ e lydlandskap – et band som løfter death metal til nye galaktiske høyd
+ er.
 LOCATION:Moonlight Stage
 SUMMARY:Blood Incantation
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284318
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:9571bcfc-92ef-484d-b78e-79b746a3c4c8
+DTSTAMP:20260620T174341Z
+UID:322ebb36-69b9-453e-92c9-b3e41c17158a
 DTSTART:20260624T202000
 DTEND:20260624T212000
-DESCRIPTION:Blood Fire Death - a tribute to BATHORY at Moonlight Stage
+DESCRIPTION:Blood Fire Death – A Tribute to Quorthon and the Music of Bat
+ hory er et unikt konsertprosjekt som hedrer arven etter Thomas “Quorthon
+ ” Forsberg\, grunnleggeren av Bathory og en av metalhistoriens største 
+ pionerer. Med debutalbumet Bathory fra 1984 la Quorthon grunnlaget for det
+  som skulle bli den verdensomspennende black metal-bevegelsen.\nI 2004\, k
+ ort tid etter Quorthons bortgang\, samlet profilerte musikere fra den nors
+ ke svartmetallscenen seg for å hylle ham under Hole in the Sky-festivalen
+  i Bergen. Tyve år senere\, i 2024\, ble prosjektet gjenopplivet på Beyo
+ nd the Gates i Grieghallen\, denne gangen med Erik Danielsson fra Watain p
+ å vokal og som bidragsyter til sceneuttrykk og konsept. Resultatet ble be
+ skrevet med to ord: ren magi.\nProsjektet videreføres nå på utvalgte fe
+ stivaler sommeren 2025\, blant annet med en helt spesiell opptreden på To
+ ns of Rock\, med en line-up bestående av Erik Danielsson (Watain)\, Ivar 
+ Bjørnson (Enslaved)\, Blasphemer (Vltimas\, ex-Mayhem)\, Apollyon (Aura N
+ oir) og Faust (Djevel\, ex-Emperor). I tillegg vil konsertene inkludere sp
+ esielle gjesteopptredener fra blant andre Grutle (Enslaved)\, Gaahl (Trell
+ dom\, ex-Gorgoroth) og Frederick Melander (ex-Bathory)\, samt varierte gje
+ ster fra festival til festival.\nShowet er basert på Quorthons egen visjo
+ n om hvordan en Bathory-konsert ville sett ut dersom han noen gang hadde f
+ ått tatt musikken sin til scenen.
 LOCATION:Moonlight Stage
 SUMMARY:Blood Fire Death - a tribute to BATHORY
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284317
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:d3814d4c-a6c6-4cc0-a0be-22bfa43b95b6
+DTSTAMP:20260620T174341Z
+UID:eb8961c4-6878-4361-ba96-8e587c8d200d
 DTSTART:20260624T142000
 DTEND:20260624T145000
-DESCRIPTION:Martin Beyer-Olsen at The Storm Stage
+DESCRIPTION:Martin er tilbake på Tons of Rock som komiker og tidligere asp
+ irerende musiker. Han kombinerer begge deler i et musikalsk standup‑show
+  fullt av tull\, tøys og nådeløs radbrekking av kjente og kjære låter
+ . Med sin lekne\, uforutsigbare stil leverer han et hysterisk morsomt avbr
+ ekk fra festivalens øvrige musikkprogram. Dette er standup\, dette er mus
+ ikk\, dette er Martin Beyer-Olsen live.
 LOCATION:The Storm Stage
 SUMMARY:Martin Beyer-Olsen
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329832
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:aecc3f03-45ff-4a3a-9649-ba6c449b0f63
+DTSTAMP:20260620T174341Z
+UID:c433fed2-f5e0-4296-989d-ea84ba516d5f
 DTSTART:20260624T160000
 DTEND:20260624T163000
-DESCRIPTION:Turdus Musicus at The Storm Stage
+DESCRIPTION:Turdus Musicus er et av de mest kompromissløse hardcorebandene
+  Nord-Norge har fostret. Siden oppstarten i Tromsø i 1998 har de båret b
+ yens hardcore-banner med stolthet\, fra enorme festivaler i Kina til svett
+ e klubber i Japan og USA. Få band fra landsdelen har turnert hardere elle
+ r jobbet mer målrettet.\nI løpet av tolv intense år ga de ut tre album 
+ og flere EP-er\, og satte et tydelig avtrykk i den nordnorske undergrunnen
+ . Turdus Musicus ble et referansepunkt for en hel scene: rått\, ærlig og
+  uten kompromisser.\nEtter 16 år i stillhet samlet bandet seg igjen i 202
+ 5 i studio i Tromsø. Med seg hadde de sin gamle samarbeidspartner\, den G
+ rammy-vinnende produsenten Jason Livermore (Comeback Kid\, Descendents\, R
+ ise Against\, Hot Water Music)\, for å fullføre et kapittel som aldri fi
+ kk sin naturlige avslutning. Resultatet er deres første album på 17 år!
+  Sintere\, hardere og mer kaotisk enn noensinne.\nTurdus Musicus er tilbak
+ e. Ikke for å mimre\, men for å minne oss på hvordan hardcore faktisk s
+ kal låte.
 LOCATION:The Storm Stage
 SUMMARY:Turdus Musicus
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299430
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:a754c120-f19c-452d-b8c7-54e2644abc5a
+DTSTAMP:20260620T174341Z
+UID:c0886b04-f176-4221-8561-c2c32e474766
 DTSTART:20260624T181000
 DTEND:20260624T184000
-DESCRIPTION:Cecile Moroni at The Storm Stage
+DESCRIPTION:Cecile Moroni is a French-Norwegian stand-up comedian with a sh
+ arp eye and international energy. Cécile takes the audience through cultu
+ re clashes\, Norwegian working life\, gender equality\, waffle Fridays\, a
+ nd the eternal mystery: the Christmas party. Intelligent\, self-ironic\, a
+ nd spot-on humour!
 LOCATION:The Storm Stage
 SUMMARY:Cecile Moroni
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329834
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:0f9579ea-e91b-4c7b-9323-6ebd6014ea57
+DTSTAMP:20260620T174341Z
+UID:48fe06b1-ccd6-42d2-b654-48bf140aa53b
 DTSTART:20260624T191000
 DTEND:20260624T194000
-DESCRIPTION:Jordsjuk at The Storm Stage
+DESCRIPTION:Jordsjuk leverer nekro musikk for nekro tider. Etter å ha gjor
+ t kraftig inntrykk med den nådeløse EP-en ‘Råtner på rot’ (2024)\,
+  slo bandet for alvor fast sitt navn med debutalbumet ‘Naglet til livet
+ ’\, en knyttneve av rå og kontant metal\, fri for staffasje og gimmicks
+ .\nBestående av musikere med solid fartstid i den norske undergrunnen\, s
+ erverer Jordsjuk en fandenivoldsk miks av black metal\, thrash\, death\, p
+ unk og klassisk rock. Det er organisk\, riffbasert og rett i trynet. Lydbi
+ ldet er skittent og aggressivt\, men også groovy\, mens tekstene\, levert
+  på norsk\, maler brutale bilder av undergang\, desperasjon og destruktiv
+ itet.\nDebutalbumet har gitt dem en Spellemann-nominasjon og er et tydelig
+  bevis på at kompromissløs undergrunnskraft også kan slå gjennom brede
+ re.
 LOCATION:The Storm Stage
 SUMMARY:Jordsjuk
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299429
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:ab74e493-ad62-4b9c-871b-24d6b2c82a3f
+DTSTAMP:20260620T174341Z
+UID:d1cc3898-8cfa-40ad-8cad-ee752c662dac
 DTSTART:20260624T131500
 DTEND:20260624T134500
-DESCRIPTION:Filmtalk Chris Pontius at The Arcade
+DESCRIPTION:Filmtalk med Chris Pontius
 LOCATION:The Arcade
 SUMMARY:Filmtalk Chris Pontius
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335186
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:68acf4e9-3ba9-4c04-ac8f-c959e3b7d014
+DTSTAMP:20260620T174341Z
+UID:4f31a299-cdb4-4049-be7a-3e0482eea534
 DTSTART:20260624T160000
 DTEND:20260624T163000
-DESCRIPTION:Musikk Dragbingo at The Arcade
+DESCRIPTION:Er du hakket over middels musikkinteressert og har konkurransei
+ nstinktet i god behold - da er årest drag-musikkbingo med fantastiske Dr
+ agonic stedet du skal være! \nDragnorges king and queen of Metal\, Erik
+  Sjon og Fay Goth\, er tilbake igjen som duoen Dragonic og inviterer dere 
+ til Tons of Rock sin første drag musikkbingo! Bli med på en solid oppvar
+ ming til konsertene med musikken du elsker i møtepunktet mellom bingo og 
+ en musikkquiz. Det blir god stemning\, fete premier\, og kanskje du oppdag
+ er en ny favorittlåt?
 LOCATION:The Arcade
 SUMMARY:Musikk Dragbingo
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335190
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:36410a56-163a-47fa-85a9-9c2fda2c812e
+DTSTAMP:20260620T174341Z
+UID:51548c2a-cb5c-4a95-b6ce-33a8e8bff71f
 DTSTART:20260624T180000
 DTEND:20260624T183000
-DESCRIPTION:Live gaming at The Arcade
+DESCRIPTION:I løpet av Tons of Rock har DU muligheten til å vinne fine pr
+ emier i The Arcade! Kom innom og konkurrer i spillquiz med Steffen Lund\, 
+ eller utfordre vennene dine til dueller i Mario Kart World\, EA FC 2026 e
+ ller minigames fra Mario Party Jamboree! Det blir live gaming og konkurran
+ ser fra onsdag - lørdag\, så stikk innom og sjekk ut når du har muligh
+ eten til å gruse vennene dine og vinne nydelige premier.
 LOCATION:The Arcade
 SUMMARY:Live gaming
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335195
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:a8d15ca5-f15f-448c-965f-5a83da6d8083
+DTSTAMP:20260620T174341Z
+UID:2556368a-1352-42e9-a21d-452003c642f0
 DTSTART:20260625T135000
 DTEND:20260625T143500
-DESCRIPTION:Apocalyptica at Scream stage
+DESCRIPTION:Finske Apocalyptica har i tre tiår stått som et av de mest un
+ ike bandene i metallens verden. Med cello som hovedinstrument har de skapt
+  en helt egen sjanger der klassisk musikk møter tung metal.\nBandet start
+ et som et Metallica-coverprosjekt i 1993\, men utviklet raskt sin egen ide
+ ntitet. I dag er Apocalyptica kjent for låter som ‘I’m Not Jesus’ (
+ med Corey Taylor) og ‘I Don’t Care’ (med Adam Gontier)\, og for sine
+  spektakulære liveopptredener.\nGruppa består i dag av Eicca Toppinen\, 
+ Paavo Lötjönen\, Perttu Kivilaakso og trommeslager Mikko Sirén\, musike
+ re som like gjerne spiller på symfoniarenaer som på metallfestivaler.\nA
+ pocalyptica er bandet for deg som liker når metall får et uventet uttryk
+ k: vakkert\, brutalt og helt særegent. Dette blir noe ulikt alt annet på
+  Tons of Rock 2026.
 LOCATION:Scream stage
 SUMMARY:Apocalyptica
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284313
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:c2bc61d7-a85f-40e9-8729-7adf87959d4d
+DTSTAMP:20260620T174341Z
+UID:0d2f130e-cb46-4e17-bbdb-22f197a61bc3
 DTSTART:20260625T154500
 DTEND:20260625T163500
-DESCRIPTION:D-A-D at Scream stage
+DESCRIPTION:De har vært kalt alt fra «cowpunk» til «action rock»\, men
+  uansett etikett er én ting sikkert: D-A-D er dansk rock i toppform. Side
+ n gjennombruddet med ‘Sleeping My Day Away’ i 1989 har bandet holdt st
+ ø kurs i den absolutte eliten\, med et sound som balanserer melodisk teft
+  og en god dose humor.\nGjennom snart fire tiår har Jesper Binzer\, Jacob
+  Binzer\, Stig Pedersen og Laust Sonne bygd et rykte som et av Nordens mes
+ t eksplosive liveband. Med hits som ‘Bad Craziness’\, ‘Laugh ‘n’
+  a 1/2’ og ‘Everything Glows’ har de skapt en legendarisk katalog so
+ m fortsatt er aktuell.\nD-A-D har spilt på verdens største scener\, fra 
+ Wembley og Wacken Open Air til Roskilde Festival\, der de holder rekorden 
+ for flest opptredener på den legendariske Orange Stage. Over 2 millioner 
+ solgte album og flere platinapriser senere\, står de fortsatt støtt som 
+ en av Danmarks mest vitale musikalske institusjoner.\n«Vi må hele tiden 
+ brenne alt ned og se hva som reiser seg fra asken\,» sier frontmann Jespe
+ r Binzer. «Rock handler om å være farlig – om å kjenne den liv-eller
+ -død-følelsen på scenen.»\nHjelp oss med å ønske D-A-D hjertelig vel
+ kommen tilbake til Tons of Rock!
 LOCATION:Scream stage
 SUMMARY:D-A-D
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284322
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:906bb5a6-70b7-410f-a825-18f34e7317b4
+DTSTAMP:20260620T174341Z
+UID:94ca08b9-3d1f-49f1-b94b-fe53dbdbc007
 DTSTART:20260625T175500
 DTEND:20260625T185500
-DESCRIPTION:Anthrax at Scream stage
+DESCRIPTION:På med de hviteste sneakersene og de trangeste svarte buksene\
+ , trash metal-heltene Anthrax kommer til Tons of Rock 2026! \nAnthrax er 
+ et av de legendariske navnene i thrash metal – en av de fire store ved s
+ iden av Metallica\, Slayer og Megadeth. Siden starten i New York i 1981 ha
+ r de levert kompromissløs metal med låter som Indians\, Madhouse og Caug
+ ht in a Mosh\, og satt standarden for sjangeren som fortsatt får blodet t
+ il å pumpe hos fans verden over.\nMed sin blanding av rå energi\, presis
+ e riff og en liveintensitet få kan matche\, har Anthrax spilt på de stø
+ rste scenene på alle kontinenter. De er kjent som pionerer som løftet th
+ rash metal til et globalt fenomen\, og fem tiår inn i karrieren er de for
+ tsatt like relevante\, aggressive og sultne som da de startet. I dag står
+  Anthrax som et av de mest innflytelsesrike og varige metalbandene gjennom
+  tidene\, med en arv som fortsatt former metal-musikken verden over.
 LOCATION:Scream stage
 SUMMARY:Anthrax
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284312
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:dfc7b048-8f1c-4fb5-b343-3c50bae185f3
+DTSTAMP:20260620T174341Z
+UID:8481e8c2-21b0-41aa-a6f2-2430357b0d9a
 DTSTART:20260625T204500
 DTEND:20260625T225500
-DESCRIPTION:Iron Maiden at Scream stage
+DESCRIPTION:Iron Maiden er selve definisjonen av heavy metal og et av de me
+ st innflytelsesrike bandene i rockehistorien. I 2026 returnerer de til Ton
+ s of Rock og vi får endelig et gjensyn med “Scream for me Oslo!”.\nSi
+ den oppstarten i London i 1975 har de solgt over 100 millioner album\, fyl
+ t stadioner verden over og skapt et univers av musikk\, ikoniske plateomsl
+ ag og den legendariske maskoten Eddie. Gjennom fem tiår har bandet levert
+  klassikere som The Number of the Beast\, Run to the Hills og Fear of the 
+ Dark\, og de fortsetter å prege sjangeren med sitt unike samspill av melo
+ di\, kraft og teatralske liveopptredener. De er kjent for noen av de mest 
+ spektakulære turnéproduksjonene i musikkhistorien\, med shows som trekke
+ r millioner av fans på tvers av kontinenter.\nIron Maiden er ikke bare et
+  band – de er et globalt fenomen som har inspirert generasjoner av musik
+ ere og fans. Med Bruce Dickinsons karismatiske vokal i front\, Steve Harri
+ s’ drivende basslinjer og resten av bandets utrettelige energi\, står d
+ e fortsatt som en urokkelig kraft i moderne rock og metal.
 LOCATION:Scream stage
 SUMMARY:Iron Maiden
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284329
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:b2b1b74f-7f45-45c1-844b-e37ee18a43e0
+DTSTAMP:20260620T174341Z
+UID:93386e46-a070-46ff-b357-0bc963c2a57d
 DTSTART:20260625T130000
 DTEND:20260625T134500
-DESCRIPTION:Audrey Horne at Vampire Stage
+DESCRIPTION:Audrey Horne til Tons of Rock 2026! \nBergensk hardrock \nAud
+ rey Horne har siden starten tidlig på 2000-tallet vært et fyrtårn i nor
+ sk hardrock. Med medlemmer fra band som Enslaved\, Sahg og Gorgoroth\, har
+  gjengen fra Bergen skapt sin helt egen blanding av klassisk rock\, modern
+ e nerve og uslåelig energi. Musikken er melodiøs hardrock/post-grunge so
+ m henter inspirasjon fra klassiske band som Van Halen\, Alice in Chains\, 
+ KISS og Iron Maiden\, mens de fortsatt har røttene sine godt plantet i bl
+ ack metal. \nBandet har gjennom årene levert en imponerende rekke album\
+ , blant dem Le Fol\, Youngblood og Devil’s Bell\, og har gjort seg kjent
+  som et av Norges mest potente liveband både hjemme og ute i Europa. Fron
+ tmann Toschie leder an med en sjelden kombinasjon av karisma og humor.
 LOCATION:Vampire Stage
 SUMMARY:Audrey Horne
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284314
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:de6691b9-7ee3-4f41-86de-e12f9cbfe478
+DTSTAMP:20260620T174341Z
+UID:9ba1da05-9ec0-4b59-90da-9008915a30da
 DTSTART:20260625T144500
 DTEND:20260625T153500
-DESCRIPTION:Imminence at Vampire Stage
+DESCRIPTION:Svenske Imminence er bandet som har tatt metalcore et steg vide
+ re. Med en unik kombinasjon av tunge breakdowns\, moderne metal og klassis
+ ke strykerarrangementer har de skapt sin egen signaturlyd – frontet av v
+ okalist og fiolinist Eddie Berg.\nSingler som "Come Hell or High Water"\, 
+ "Death by a Thousand Cuts" og "Heaven Shall Burn" har raskt samlet million
+ er av streams og gjort Imminence til en av de mest omtalte nye aktørene i
+  moderne metal. I 2024 solgte bandet ut sin første Nord-Amerika-turné p
+ å under 48 timer\, med oppgraderte venues og massiv etterspørsel.\nMusik
+ alsk befinner Imminence seg et sted mellom metalcore\, alternativ metal og
+  filmatisk post-metal\, et uttrykk som gjør dem like aktuelle på klubber
+  som på store festivaler som Download\, Full Force og Sonic Temple.\nPå 
+ Tons of Rock 2026 kommer Imminence med et liveshow fylt av kontraster: bru
+ talt\, vakkert\, melodisk og mørkt. Et band som står midt i sitt interna
+ sjonale gjennombrudd og som du definitivt bør få med deg.
 LOCATION:Vampire Stage
 SUMMARY:Imminence
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288507
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:80c7bf1f-7f8d-486c-afdb-0ecf6865414a
+DTSTAMP:20260620T174341Z
+UID:066a5b42-5a54-42b5-b1a7-2e2485ff1b68
 DTSTART:20260625T164500
 DTEND:20260625T174500
-DESCRIPTION:Suicidal Tendencies at Vampire Stage
+DESCRIPTION:Suicidal Tendencies er et av de mest innflytelsesrike bandene i
+ nnen crossover thrash\, punktum.Siden 1980 har Mike Muir og gjengen bygget
+  en karriere som blander hardcore\, punk og metal på en måte som har ins
+ pirert alt fra skatepunk til moderne metalcore.\nMed klassikere som “Ins
+ titutionalized”\, “Cyco Vision” og “Pledge Your Allegiance” har 
+ ST levert låter som er like energiske som de er ikoniske. Bandet har hatt
+  noen av sjangerens fremste musikere i rekkene\, og dagens lineup inkluder
+ er trommefenomenet Brandon Pertzborn og basslegenden Rob Trujillo's sønn\
+ , Tye Trujillo\, noe som tilfører bandet et ekstra lag med musikalsk tyng
+ de og ungdommelig kraft.\nLive er Suicidal Tendencies en eksplosjon av ene
+ rg! Det er intenst\, fengende og totalt kompromissløst. Muir er fortsatt 
+ et av de mest karismatiske frontfigurene i hardcore- og metalverdenen\, og
+  bandets rykte som et av de beste livebandene i sjangeren står fjellstøt
+ t.\nPå Tons of Rock 2026 kommer Suicidal Tendencies for å levere den rå
+ e\, adrenalinfylte wall-of-thrash som har gjort dem legendariske. Dette bl
+ ir en fest for både gamle fans og nye rekrutter i ST-army.\nStill Cyco 
+ – alltid.
 LOCATION:Vampire Stage
 SUMMARY:Suicidal Tendencies
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288848
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:d2c1bd0c-5ad1-4b31-80f9-36d88062cba5
+DTSTAMP:20260620T174341Z
+UID:ddee6b17-b217-4d41-9be3-57613e453136
 DTSTART:20260625T191000
 DTEND:20260625T202500
-DESCRIPTION:Alice Cooper at Vampire Stage
+DESCRIPTION:Alice Cooper er en levende legende\, og selve grunnleggeren av 
+ shock rock. Siden 60-tallet har han sjokkert\, underholdt og fornyet rocke
+ scenen med sin unike blanding av hardtslående riff\, mørk humor og teatr
+ alske effekter. Han ble verdensberømt med låter som School’s Out\, Poi
+ son\, I’m Eighteen og No More Mr. Nice Guy\, sanger som ikke bare define
+ rte en epoke\, men som fortsatt spilles som rockehymner på tvers av gener
+ asjoner.\nGjennom fem tiår har Cooper solgt millioner av album\, toppet h
+ itlister\, blitt innlemmet i Rock and Roll Hall of Fame\, og inspirert all
+ e fra Kiss og Marilyn Manson til Metallica og Rob Zombie. Hans konserter e
+ r noe langt mer enn vanlige rockeshow\, her får publikum giljotiner\, blo
+ d\, zombier\, skjeletter\, slanger og makabre tablåer i en maktdemonstras
+ jon av både musikk og teater. Det er dette som har gjort ham til en av de
+  mest innflytelsesrike og ikoniske skikkelsene i rockehistorien.\nNår Ali
+ ce Cooper endelig returnerer til Norge for å spille på Tons of Rock 2026
+ \, er det en begivenhet av de sjeldne. Det er første gang på mange år a
+ t publikum her til lands får oppleve hans legendariske show – et mørkt
+ \, spektakulært og uforglemmelig møte mellom rockehits og teatralsk horr
+ or\, levert av en artist som fremdeles setter standarden for hvordan ekte 
+ rock’n’roll skal se og høres ut.
 LOCATION:Vampire Stage
 SUMMARY:Alice Cooper
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284311
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:48bb2f47-49ad-429c-8b00-f5c1078dd055
+DTSTAMP:20260620T174341Z
+UID:849981cb-70a5-44db-b2ca-bd51901967b1
 DTSTART:20260625T131500
 DTEND:20260625T140000
-DESCRIPTION:The Baboon Show at Moonlight Stage
+DESCRIPTION:Svenske The Baboon Show har siden 2003 vært et av de mest eksp
+ losive livebandene i europeisk punkrock. Frontet av Cecilia Boström\, kje
+ nt for å ta full kontroll over scenen fra første sekund\, har bandet byg
+ get et rykte som “must-see” langt utenfor hjemlandet.\nGjengen har tur
+ nert over store deler av verden\, fra Europa til Kina og Cuba\, og vært d
+ irekte support for tyske stadionfavoritter som Die Toten Hosen\, Broilers 
+ og Feine Sahne Fischfilet. Samtidig trekker de tusenvis av egne fans på k
+ lubb- og arenakonserter i Tyskland\, Spania og Skandinavia.\nPå Tons of R
+ ock 2026 kommer The Baboon Show med det de er best på: en sceneutblåsnin
+ g full av energi\, attitude og ekte punkglede. Dette blir et av årets mes
+ t livlige og svette konserter\, akkurat slik vi vil ha det.
 LOCATION:Moonlight Stage
 SUMMARY:The Baboon Show
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288508
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:9b45fe20-0adb-4202-9f01-ac15bb5ccd5e
+DTSTAMP:20260620T174341Z
+UID:db3c3940-b581-4b68-b9de-69e15b94f5ee
 DTSTART:20260625T143500
 DTEND:20260625T152000
-DESCRIPTION:grandson at Moonlight Stage
+DESCRIPTION:grandson er stemmen for en ny generasjon som vil mer enn å lyt
+ te\, de vil rope tilbake. Den kanadisk-amerikanske artisten har markert se
+ g med kompromissløse låter som “Blood // Water” og “Heather”\, o
+ g gjennom samarbeid med blant annet Tom Morello\, der politisk raseri og p
+ ersonlige historier smelter sammen til noe helt eget.\nMed det nyeste albu
+ met ‘INERTIA’ tar han et enda mørkere og hardere steg. Musikken er dr
+ evet av tunge riff\, rap-vokal\, store hooks og et tydelig mål: å skape 
+ rom for fellesskap\, sinne\, klassebevissthet og motstand. grandson ser p
+ å rock som et verktøy for sosial bevegelse og låtene er skrevet for å 
+ føles som et kamprop.\nSom liveartist har han vokst til et globalt fenome
+ n. Etter over 150 konserter det siste året\, samarbeid med Linkin Park og
+  en headline-opptreden på Glastonburys politiske Left Field-scene\, har g
+ randson befestet sin posisjon som en av de mest kraftfulle og engasjerende
+  artistene i moderne alternativrock.\nPå Tons of Rock 2026 kommer han med
+  et sett som er skapt for å treffe rett i mellomgulvet: energisk og inten
+ st. Musikk for dem som vil kjenne noe og som vil si noe. Dette blir en kon
+ sert du merker på kroppen.
 LOCATION:Moonlight Stage
 SUMMARY:grandson
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288844
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:15a5d8b9-3ba4-4dac-a906-b11b6a670f29
+DTSTAMP:20260620T174341Z
+UID:ba25b1c2-7006-4069-b7f0-9891317fbc5e
 DTSTART:20260625T160500
 DTEND:20260625T165500
-DESCRIPTION:YONAKA at Moonlight Stage
+DESCRIPTION:Britiske YONAKA er et band som nekter å passe inn i én sjange
+ r. Med en intens miks av alternativ rock\, elektroniske elementer og catch
+ y pophooks har trioen fra Brighton blitt et av de mest spennende navnene i
+  den moderne rockescenen.\nBandet\, frontet av den karismatiske Theresa Ja
+ rvis\, har gjort seg bemerket med låter som “Seize the Power”\, “Ro
+ ckstar” og “Panic”\, der eksplosiv energi møter personlig og kompro
+ missløs lyrikk. YONAKA har turnert med giganter som Bring Me The Horizon\
+ , Panic! At The Disco\, Imagine Dragons og Fever 333\, og står i dag stø
+ dig som et band som både kan fylle klubbscener og ta over festivalsommere
+ n.\nDe har spilt på store festivaler som Reading & Leeds\, Download\, Lol
+ lapalooza og Mad Cool\, og har fått bred internasjonal oppmerksomhet for 
+ sin evne til å kombinere rå kraft med sterk meloditeft.\nPå Tons of Roc
+ k 2026 kommer YONAKA med et sett som er både elektrisk\, emosjonelt og uf
+ orutsigbart. Dette er moderne alternative rock med ryggrad\, attitude og s
+ tort hjerte.
 LOCATION:Moonlight Stage
 SUMMARY:YONAKA
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288851
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:39744ccc-02bb-4fa8-9b84-68377f42f572
+DTSTAMP:20260620T174341Z
+UID:aa96a60e-c169-4d35-a23a-ef7b0df26a16
 DTSTART:20260625T174000
 DTEND:20260625T183000
-DESCRIPTION:The Warning at Moonlight Stage
+DESCRIPTION:Mexicanske The Warning er et av de mest imponerende nye navnene
+  i moderne rock. Et band drevet av tre søstre som har spilt sammen hele l
+ ivet: Dany\, Pau og Ale Villarreal. Med hundrevis av millioner streams\, u
+ tallige turnémil og en stadig voksende global fanbase har de etablert seg
+  som en kraft å regne med.\nBandet fikk tidlig oppmerksomhet i tenårene\
+ , før de virkelig slo gjennom med albumet ERROR (2022). Siden har The War
+ ning delt scene med tungvektere som Muse\, Foo Fighters\, Guns N’ Roses\
+ , Royal Blood\, The Pretty Reckless og Three Days Grace\, og i 2023 spilte
+  de på MTV VMAs sin Extended Play Stage. De har også markert seg kulture
+ lt\, blant annet som ansiktet til Pepsi Black i Mexico og med en offisiell
+  Enter Sandman-cover for Metallicas Blacklist-prosjekt.\nI 2024 fulgte de 
+ opp med albumet Keep Me Fed\, med singler som “MORE”\, “S!CK”\, 
+ “Hell You Call a Dream”\, “Qué Más Quieres” og “Automatic Sun
+ ”\, som viser en stadig mer selvsikker og energisk retning.\nPå Tons of
+  Rock 2026 kommer The Warning med den blandingen av melodisk teft\, presis
+ jon og hard rock-kick som har gjort dem til et av de mest spennende rockeb
+ andene å følge akkurat nå.
 LOCATION:Moonlight Stage
 SUMMARY:The Warning
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288509
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:572da484-8672-4d99-ab96-b769bc5a83d2
+DTSTAMP:20260620T174341Z
+UID:146f2c08-db04-438c-ba59-ab8202d1c5f3
 DTSTART:20260625T192000
 DTEND:20260625T202000
-DESCRIPTION:Paleface Swiss at Moonlight Stage
+DESCRIPTION:Paleface Swiss har på få år gått fra å være et undergrunn
+ snavn i Zürich til å bli en av de mest markante kraftene i moderne death
+ core og nu-core. Bandet ble startet i 2017 av vokalist Marc “Zelli” Ze
+ llweger\, og ble for alvor lagt merke til med albumene ‘Chapter 3: The L
+ ast Selection’ (2020) og den beinharde ‘Fear & Dagger’\, som ga dem 
+ et internasjonalt gjennombrudd.\nSiden den gang har Paleface Swiss dominer
+ t både scener og moshpits. De har turnert i USA som support for The Ghost
+  Inside\, nesten utsolgt Europa rundt med Lionheart\, og bygget et rykte s
+ om et av de mest brutale og kompromissløse livebandene i sjangeren.\nSelv
+  om de har solgt ut turneer i USA\, har de ventet lenge med sin første or
+ dentlige headliner-turné i Europa\, noe som nå endelig er i gang. Bandet
+ s egen kommentar sier alt: “It needs to mature like cheese.”\nPå Tons
+  of Rock 2026 kommer Paleface Swiss med tunge breakdowns\, rå vokal og fu
+ ll mosheffekt. Deathcore-fansen kan bare begynne å gjøre nakkeøvelser. 
+ Dette blir brutalt.
 LOCATION:Moonlight Stage
 SUMMARY:Paleface Swiss
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288510
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:2e380061-d750-41b7-b8dc-cdb2078e4edb
+DTSTAMP:20260620T174341Z
+UID:e4550e4d-a752-4cd4-ae5f-80b9904d2819
 DTSTART:20260625T140000
 DTEND:20260625T143000
-DESCRIPTION:Sarah Løvald at The Storm Stage
+DESCRIPTION:Den musikalske standup‑komikeren du ikke visste du manglet. S
+ arah Løvald kombinerer sylskarp humor\, musikalsk lekenhet og en elskverd
+ ig dose hat. Rask i replikken\, sterk i mimikken og umiddelbart fengende. 
+ Gjør deg klar for et energisk one‑woman‑show du sent vil glemme.
 LOCATION:The Storm Stage
 SUMMARY:Sarah Løvald
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329833
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:2a0d1740-88e2-4345-92b1-c17c4dffad49
+DTSTAMP:20260620T174341Z
+UID:d501946c-0759-43df-8a3e-3a3946bfea16
 DTSTART:20260625T153500
 DTEND:20260625T160500
-DESCRIPTION:Angell at The Storm Stage
+DESCRIPTION:Angell er en 17 år gammel norsk musiker og låtskriver med en 
+ tydelig og målrettet tilnærming til egen musikk. Som multiinstrumentalis
+ t har han allerede rukket å opptre i musikaler\, spilt i coverband og byg
+ get solid erfaring til tross for sin unge alder.\nAngell Solberg Tveitan\,
+  sønn av den legendariske Emperor vokalist og grunnlegger Ihsahn\, går n
+ å sine egne veier med prosjektet Angell. I 2025 debuterer han med ‘Veil
+ ed By Woe’\, en selvskrevet 4-spors utgivelse hvor han spiller alle inst
+ rumenter selv. \nMed en klar kunstnerisk retning og fullt band i ryggen e
+ r Angell nå klar for å ta musikken fra studio til scene og vise at han e
+ r mer enn bare et kjent etternavn\, men en artist i tydelig utvikling.
 LOCATION:The Storm Stage
 SUMMARY:Angell
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299426
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:4fba629a-ad3b-40bd-81d7-07698e30351d
+DTSTAMP:20260620T174341Z
+UID:daf3d044-4a8e-4ea0-8d33-c2776491ca20
 DTSTART:20260625T174500
 DTEND:20260625T181500
-DESCRIPTION:Paul Myrehaug at The Storm Stage
+DESCRIPTION:Paul Myrehaug er en prisvinnende canadisk standupkomiker med in
+ ternasjonal tyngde. Han er vinner av Great Canadian Laugh Off og herdet gj
+ ennom verdens tøffeste humorscener. \nMed turnéer og opptredener i mer e
+ nn 40 land i bagasjen møter han publikum med lekenhet\, overskudd og en t
+ ydelig kjærlighet til kaoset som bare live‑humor kan gi.
 LOCATION:The Storm Stage
 SUMMARY:Paul Myrehaug
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329835
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:48be32e6-88c4-4a56-bb03-68efddc3548b
+DTSTAMP:20260620T174341Z
+UID:0f6ccab3-e660-4cff-9a49-11d331d61880
 DTSTART:20260625T184000
 DTEND:20260625T191000
-DESCRIPTION:Ramona's Tea Party at The Storm Stage
+DESCRIPTION:Ramona's Tea Party er årets vinner av Postens Bandkonkurranse\
+ , og dermed klare for Tons of Rock 2026. Med sin egen beskrivelse av musik
+ ken som «indierock you would like to spoon and mosh to»\, har bandet ska
+ pt et uttrykk som kombinerer melodiøs inderlighet med energi og trøkk.\n
+ Bandet har gjort seg bemerket med sterke låter\, en tydelig identitet og 
+ konserter som balanserer det nære og det eksplosive. De beveger seg søml
+ øst mellom svevende partier og øyeblikk som inviterer til både allsang 
+ og moshpit\, uten å miste den røde tråden underveis.\nSeieren i Postens
+  Bandkonkurranse sendte dem rett til årets Tons of Rock-plakat\, og på E
+ kebergsletta får publikum oppleve et av de mest lovende nye navnene på d
+ en norske rockescenen. Ramona's Tea Party er klare for sitt største publi
+ kum så langt og de har tenkt å gripe sjansen med begge hender.
 LOCATION:The Storm Stage
 SUMMARY:Ramona's Tea Party
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-327786
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:6d5b5042-7737-4fdd-b762-f8482f81ed23
+DTSTAMP:20260620T174341Z
+UID:4a1d1aa2-7f59-415c-84e9-3e6add83129a
 DTSTART:20260625T131500
 DTEND:20260625T134500
-DESCRIPTION:Filmtalk med Tommy Wirkola og Roar Uthaug at The Arcade
+DESCRIPTION:Filmtalk med Tommy Wirkola og Roar Uthaug
 LOCATION:The Arcade
 SUMMARY:Filmtalk med Tommy Wirkola og Roar Uthaug
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335188
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:903d2d68-17ed-46f1-98d3-e49938fa12b3
+DTSTAMP:20260620T174341Z
+UID:79951f4c-4807-4002-9adf-2fbbc2a62f03
 DTSTART:20260625T160000
 DTEND:20260625T163000
-DESCRIPTION:Musikk Dragbingo at The Arcade
+DESCRIPTION:Er du hakket over middels musikkinteressert og har konkurransei
+ nstinktet i god behold - da er årest drag-musikkbingo med fantastiske Dr
+ agonic stedet du skal være! \nDragnorges king and queen of Metal\, Erik
+  Sjon og Fay Goth\, er tilbake igjen som duoen Dragonic og inviterer dere 
+ til Tons of Rock sin første drag musikkbingo! Bli med på en solid oppvar
+ ming til konsertene med musikken du elsker i møtepunktet mellom bingo og 
+ en musikkquiz. Det blir god stemning\, fete premier\, og kanskje du oppdag
+ er en ny favorittlåt?
 LOCATION:The Arcade
 SUMMARY:Musikk Dragbingo
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335191
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:d563d89e-0326-4412-8b38-e0350b7ec9bd
+DTSTAMP:20260620T174341Z
+UID:e0a400f3-bb06-4361-bf7c-bec7bc47baae
 DTSTART:20260625T180000
 DTEND:20260625T183000
-DESCRIPTION:Live gaming at The Arcade
+DESCRIPTION:I løpet av Tons of Rock har DU muligheten til å vinne fine pr
+ emier i The Arcade! Kom innom og konkurrer i spillquiz med Steffen Lund\, 
+ eller utfordre vennene dine til dueller i Mario Kart World\, EA FC 2026 e
+ ller minigames fra Mario Party Jamboree! Det blir live gaming og konkurran
+ ser fra onsdag - lørdag\, så stikk innom og sjekk ut når du har muligh
+ eten til å gruse vennene dine og vinne nydelige premier.
 LOCATION:The Arcade
 SUMMARY:Live gaming
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335196
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:9f7dd695-c980-43f8-b0f3-6d033957dc4c
+DTSTAMP:20260620T174341Z
+UID:e8615815-12b7-4672-aeeb-7aba44a34f63
 DTSTART:20260626T132000
 DTEND:20260626T141000
-DESCRIPTION:Raga Rockers at Scream stage
+DESCRIPTION:Raga Rockers ble startet av Michael Krohn i 1982\, etter at han
+  hadde vært trommeslager i det legendariske punkbandet Kjøtt. Med Krohn 
+ som vokalist ble Raga raskt en drivkraft i norsk rock\, og sammen med DumD
+ um Boys\, Jokke & Valentinerne og DeLillos utgjorde de «de fire store» s
+ om formet en ny æra for norsk rockemusikk.\nDebutalbumet The Return of th
+ e Raga Rockers (1983) ble fulgt av klassikere som Maskiner i Nirvana (1984
+ )\, Forbudte Følelser (1988) og Blaff (1989). Gjennom 80- og 90-tallet et
+ ablerte bandet seg som et av de viktigste norske rockebandene\, med tekste
+ r som traff både sosialt og politisk\, og en rå liveenergi som bygget en
+  lojal fanskare over hele landet.\nGjennom karrieren har Raga Rockers gitt
+  ut over ti studioalbum\, flere liveplater og samleutgivelser\, og solgt h
+ undretusener av plater. Albumet Übermensch (2007) gikk rett inn på førs
+ teplass på VG-lista\, et bevis på bandets vedvarende relevans. I 2017 bl
+ e de innlemmet i Rockheim Hall of Fame\, en offisiell bekreftelse på dere
+ s plass i norsk rockhistorie.\nI dag står Raga Rockers fortsatt som et av
+  Norges mest ikoniske band\, med låter som Noen å hate\, Hun er fri og S
+ lakt som tidløse favoritter. Når de nå vender tilbake til Tons of Rock 
+ 2026\, er det duket for et gjensyn med et band som i over fire tiår har v
+ ært selve ryggraden i norsk rock.
 LOCATION:Scream stage
 SUMMARY:Raga Rockers
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284334
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:af55779c-d43d-45bd-afd6-81130722accb
+DTSTAMP:20260620T174341Z
+UID:596ce563-1947-4d23-b87f-03cb1a5ac626
 DTSTART:20260626T150500
 DTEND:20260626T160500
-DESCRIPTION:Tom Morello at Scream stage
+DESCRIPTION:Hva har Rage Against the Machine\, Audioslave og The E-street B
+ and til felles? Tom Morello.\nGitarvirtuosen\, låtskriveren og aktivisten
+  Tom Morello er selve beviset på rockens sprengkraft. Med sin kompromissl
+ øse spillestil og unike tilnærming til gitaren har han redefinert hva et
+  riff kan være og hva musikk kan bety for en hel generasjon.\nSom grunnle
+ ggende medlem av Rage Against the Machine og Audioslave var Morello med p
+ å å forme en ny æra innen rock og metal\, der politisk brodd møtte gro
+ ove\, og riff ble like ikoniske som slagordene. Hans distinkte lydbilde\, 
+ med effekter som minner mer om scratching enn gitar\, løftet begge band t
+ il internasjonal suksess\, med Grammy-priser og til sammen over 30 million
+ er solgte album verden over.\nMorello har siden vært en sentral del av Pr
+ ophets of Rage\, Street Sweeper Social Club\, og tilbrakte seks år som gi
+ tarist i Bruce Springsteen & The E Street Band. Samtidig har han brukt ste
+ mmen\, og gitaren\, til å kjempe for sosial rettferdighet og arbeidernes 
+ rettigheter.\nHvem er klar for en revolusjon på Tons of Rock 2026?
 LOCATION:Scream stage
 SUMMARY:Tom Morello
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284338
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:ea7d804e-d231-427b-a845-09a4caaac61a
+DTSTAMP:20260620T174341Z
+UID:e4a1c6ee-2b4e-470b-8800-2664e088d37f
 DTSTART:20260626T171000
 DTEND:20260626T182000
-DESCRIPTION:The Hives at Scream stage
+DESCRIPTION:Come on! Come on! The Hives til Tons of Rock 2026!\nFå band ha
+ r holdt liv i rocken med like mye stil og selvtillit som The Hives.Siden g
+ jennombruddet med ‘Veni Vidi Vicious’ og hits som ‘Hate to Say I Tol
+ d You So’\, Come On og Main Offender\, har svenskene vært synonymt med 
+ energiske konserter\, svarte dresser og hvite slips.\nThe Hives har aldri 
+ vært redd for å gå all-in\, enten det er i studio eller på scenen. Med
+  fjorårets album ‘The Death of Randy Fitzsimmons’ beviste de at de fo
+ rtsatt har driv og relevans uten å justere kursen for noen.\nMed Howlin
+ ’ Pelle Almqvist i front leverer de fortsatt konserter som føles som et
+  elektrisk sjokk\; presist\, kaotisk og grådig underholdende.Etter over 2
+ 5 år på veien står The Hives støtt som et av Nordens mest eksplosive l
+ iveband\, og på Tons of Rock 2026 er det ingen tvil: festen starter her. 
+ Tick Tick Boom!
 LOCATION:Scream stage
 SUMMARY:The Hives
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288511
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:295201f8-f042-413e-8ea2-d8d0bac5cd40
+DTSTAMP:20260620T174341Z
+UID:1d4aa946-5281-4fbf-a8fc-e018d7d5bf60
 DTSTART:20260626T193000
 DTEND:20260626T205000
-DESCRIPTION:Yungblud at Scream stage
+DESCRIPTION:Britiske YUNGBLUD har på rekordtid gått fra å være et under
+ grunnsfenomen til å bli stemmen for en hel generasjon.\nMed to førstepla
+ sser på de britiske albumlistene\, seks milliarder avspillinger på Spoti
+ fy\, turnén hans i USA ble utsolgt på sekunder og gjentatte plasseringer
+  på Billboard Top 100\, har han etablert seg som en generasjonstolk for u
+ nge fans verden over.\nI 2024 lanserte han sin egen festival\, Bludfest\, 
+ som samlet over 22 000 publikummere og genererte mer enn 200 millioner vis
+ ninger online. Samme år ble han også Sunday Times-bestselgende forfatter
+  med boka ‘You Need to Exist’.\nNå er YUNGBLUD tilbake med sitt mest 
+ personlige og ambisiøse prosjekt hittil: ‘Idols’\, et sjangerbrytende
+  album beskrevet som en moderne rockeopera\, skapt gjennom en reise av opp
+ rør\, gjenfødelse og kompromissløs selvutfoldelse.\nPå Tons of Rock 20
+ 26 tar han med seg ‘Idols’ til scenen\, en eksplosiv liveopplevelse so
+ m kombinerer punk\, pop og rock med rå nerve og ekte tilstedeværelse. De
+ tte blir alt annet enn en vanlig konsert.
 LOCATION:Scream stage
 SUMMARY:Yungblud
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284340
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:cf78ff1c-5682-43eb-b6e0-9fd542f3e623
+DTSTAMP:20260620T174341Z
+UID:b7165356-0904-431e-99db-bf61b41b14f9
 DTSTART:20260626T123000
 DTEND:20260626T132000
-DESCRIPTION:Eivør at Vampire Stage
+DESCRIPTION:Eivør er en av Nordens mest særegne stemmer. En artist formet
+  av Færøyenes voldsomme natur og sterke sangtradisjon. Oppvokst blant br
+ atte klipper og folkemusikkens fellesskap har hun utviklet et uttrykk som 
+ er både rått\, rituelt og dypt menneskelig.\nMed 11 album og Nordisk Rå
+ ds musikkpris i bagasjen\, har Eivør blitt en av regionens mest respekter
+ te artister. Hun beveger seg sømløst mellom elektroniske lydlandskap\, v
+ okaltradisjon og guttural sang inspirert av strupeteknikker\, beatboxing o
+ g metal. Internasjonalt har hun også gjort seg bemerket som komponist for
+  ‘The Last Kingdom’ og ‘God of War’.\nPå det nyeste albumet ‘EN
+ N’ kombinerer hun naturens kraft\, Faroisk poesi og kinematiske arrangem
+ enter til en musikk som føles tidløs og ny samtidig.\nPå Tons of Rock 2
+ 026 møter publikum Eivør i full kunstnerisk styrke. Dette blir en gripen
+ de\, utemmet og helt unik liveopplevelse.
 LOCATION:Vampire Stage
 SUMMARY:Eivør
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288841
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:6a622dea-583d-4a74-b186-d871acbf1aff
+DTSTAMP:20260620T174341Z
+UID:6e641541-b5c3-477a-8de5-a6f9300cb3e6
 DTSTART:20260626T141000
 DTEND:20260626T150000
-DESCRIPTION:Queensrÿche at Vampire Stage
+DESCRIPTION:Queensrÿche er et av de mest innflytelsesrike bandene innen pr
+ ogressiv metal. Siden oppstarten i Seattle i 1982 har de solgt over 20 mil
+ lioner album på verdensbasis og spilt utsolgte turneer på alle kontinent
+ er. Med banebrytende album som Operation: Mindcrime (1988) og Empire (1990
+ ) satte de en ny standard for hvordan metal kunne kombineres med storslåt
+ te konsepter\, melodiske hooks og teknisk perfeksjon.\nBandet har hatt man
+ ge album på Billboard Top 200\, og låter som Silent Lucidity\, Jet City 
+ Woman og Eyes of a Stranger står igjen som tidløse klassikere. I dag for
+ tsetter Queensrÿche å levere sterke album og turneer som viser at arven 
+ deres ikke bare handler om fortid\, men også om en levende\, relevant nå
+ tid.\nNår Queensrÿche spiller på Tons of Rock 2026\, er det en sjelden 
+ mulighet til å oppleve et band som både har skrevet seg inn i metalhisto
+ rien og som fremdeles leverer konserter med kraft\, presisjon og en katalo
+ g full av klassikere. Dette blir et høydepunkt for alle som elsker metal 
+ i sin mest episke form.
 LOCATION:Vampire Stage
 SUMMARY:Queensrÿche
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284333
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:cf16e4ca-f6dc-41ac-8754-09b4095f0ab8
+DTSTAMP:20260620T174341Z
+UID:08d95311-ead8-4287-af59-302659002afe
 DTSTART:20260626T161000
 DTEND:20260626T170500
-DESCRIPTION:AVATAR at Vampire Stage
+DESCRIPTION:Avatar is one of those bands that never does anything halfway. 
+ With an uncompromising mix of melodic death metal\, groove and dark carniv
+ al aesthetics\, the Swedes have grown into one of the biggest modern names
+  in international metal.\nLed by charismatic frontman Johannes Eckerström
+ \, Avatar is known for intense live shows that balance the theatrical with
+  the brutal — equal parts metal concert and dark nightmare circus. Over 
+ the past few years\, the band has toured the world\, played some of the pl
+ anet’s biggest festivals and cemented their position as one of the genre
+ ’s most unique live acts.\nWhen Avatar takes the stage at Tons of Rock o
+ n Friday\, June 26\, the crowd can expect a show packed with heavy riffs\,
+  massive energy and a stage presence few bands can match. Are you ready fo
+ r the show?
 LOCATION:Vampire Stage
 SUMMARY:AVATAR
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-318450
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:d88cf0a3-9565-4b67-8003-530172a8d56d
+DTSTAMP:20260620T174341Z
+UID:0759581c-1f3f-4bad-aa46-961f64f815cd
 DTSTART:20260626T182500
 DTEND:20260626T192500
-DESCRIPTION:Behemoth at Vampire Stage
+DESCRIPTION:Polske Behemoth har i over tre tiår vært et av de mest tonean
+ givende navnene innen ekstrem metal. Ledet av Adam “Nergal” Darski kom
+ binerer bandet black og death metal med en mørk\, gjennomført visuell es
+ tetikk som har gjort dem til en global institusjon i sjangeren.\nFra ‘Sv
+ entevith (Storming Near the Baltic)’ til prisbelønte ‘Opvs Contra Nat
+ vram’ og nyeste ‘The Shit Ov God’\, har Behemoth kontinuerlig utvikl
+ et uttrykket sitt uten å miste identiteten. Diskografien er preget av tek
+ nisk presisjon\, kompromissløs intensitet og en tydelig vilje til å utfo
+ rdre både musikalske og kulturelle grenser. \nMed ‘The Shit Ov God’ 
+ viser Behemoth at de fortsatt er i konstant bevegelse. Albumet er blant de
+ res mest direkte og ekstreme utgivelser til nå\, produsert av Jens Bogren
+  og ledsaget av et gjennomført visuelt uttrykk som er like viktig som mus
+ ikken.\nBandet har headlinet festivaler som Hellfest og Wacken\, og skreve
+ t historie som første ekstreme metalband i Paris Philharmonic.På Tons of
+  Rock 2026 møter publikum et band som fortsatt setter standarden for mode
+ rne ekstrem metal!
 LOCATION:Vampire Stage
 SUMMARY:Behemoth
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299421
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:87e035a7-c78f-4767-bc27-8bb3dcf5c749
+DTSTAMP:20260620T174341Z
+UID:e18fd350-814f-4d5e-a5bb-217f01271a1a
 DTSTART:20260626T213000
 DTEND:20260626T223000
-DESCRIPTION:Rival Sons at Vampire Stage
+DESCRIPTION:Rival Sons har siden slutten av 2000-tallet etablert seg som et
+  av de mest solide moderne rockebandene med røtter dypt plantet i klassis
+ k blues- og hardrock. Bandet fra California kombinerer tunge riff\, groove
+  og Jay Buchanan sin karakteristiske vokal i et uttrykk som både føles t
+ idløst og samtidig relevant.\nGjennom album som ‘Pressure & Time’\, 
+ ‘Great Western Valkyrie’ og ‘Feral Roots’ har Rival Sons bygget en
+  sterk internasjonal posisjon\, med Grammy-nominasjoner\, millioner av str
+ eams og omfattende turnévirksomhet. De har vært support for band som Bla
+ ck Sabbath\, AC/DC\, Guns N’ Roses og The Rolling Stones\, og opparbeide
+ t seg et rykte som et band som leverer live uten snarveier.\nRival Sons er
+  beint fram rock’n roll!På Tons of Rock 2026 kommer de med låter som e
+ r skapt for store scener og et band som vet akkurat hvordan de skal fylle 
+ dem.
 LOCATION:Vampire Stage
 SUMMARY:Rival Sons
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299422
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:bc9b3b3f-ee3c-4f01-9583-8650b5256827
+DTSTAMP:20260620T174341Z
+UID:2eba8d08-5965-48f2-b052-25bcbf0a2b7a
 DTSTART:20260626T130000
 DTEND:20260626T134000
-DESCRIPTION:The Funeral Portrait at Moonlight Stage
+DESCRIPTION:Amerikanske The Funeral Portrait har siden 2014 bygget sitt ege
+ t univers av moderne hardrock\, emosjonell intensitet og teatralske detalj
+ er. Med debutalbumet Greetings from Suffocate City tar de et nytt steg\, o
+ g låter som “Alien\,” “Voodoo Doll”\, “You’re So Ugly When Yo
+ u Cry” (med Bert McCracken fra The Used) og tittelsporet med Spencer Cha
+ rnas fra Ice Nine Kills viser et band som kombinerer store refrenger med m
+ ørke\, ærlige tekster.\nFanskaren\,The Coffin Crew\, har vokst til et gl
+ obalt og inkluderende fellesskap inspirert av scener som MCRmy og Psychos.
+  Alternative Press har omtalt bandet som “the inspiring antidote to stag
+ nant metalcore”.\nLive har The Funeral Portrait delt scene med band som 
+ Five Finger Death Punch\, Shinedown og Skillet\, og vært å se på festiv
+ aler som Aftershock\, Louder Than Life\, So What?! og Inkcarceration.\nPå
+  Tons of Rock 2026 kommer de med sitt signaturuttrykk: dramatisk\, energis
+ k og dypt inkluderende. Musikk for outsidere\, av outsidere.
 LOCATION:Moonlight Stage
 SUMMARY:The Funeral Portrait
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288849
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:52d4b4c4-fe66-4b4f-8de0-d1f9c031db56
+DTSTAMP:20260620T174341Z
+UID:c5a67f00-1f83-49a7-97f9-a75b1b2dd141
 DTSTART:20260626T141000
 DTEND:20260626T145500
-DESCRIPTION:Kublai Khan TX at Moonlight Stage
+DESCRIPTION:Kublai Khan TX er blant de mest markante navnene i moderne hard
+ core. Fra Texas har de bygd et sterkt internasjonalt navn\, med over 100 m
+ illioner streams\, utsolgte turneer og opptredener på store metal- og har
+ dcorefestivaler verden over. Bandets siste utgivelser har gått rett inn p
+ å Billboard’s Hard Rock-lister\, og de har passert millioner av avspill
+ inger på singler som The Hammer og Boomslang.\nMusikken er tung\, brutal 
+ og kompromissløs\, og konsertene leverer en intensitet man burde trene se
+ g opp får å overleve.\nI juni står Kublai Khan TX på scenen på Tons o
+ f Rock og her blir det moshpit garanti og nådeløs stemning!
 LOCATION:Moonlight Stage
 SUMMARY:Kublai Khan TX
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284330
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:80c1e4de-e365-4bd2-b206-33d7fa501e78
+DTSTAMP:20260620T174341Z
+UID:5bff0ba4-e19c-4e16-9d36-0b6909a0f5bf
 DTSTART:20260626T152500
 DTEND:20260626T161000
-DESCRIPTION:STORM at Moonlight Stage
+DESCRIPTION:STORM er en av de mest spennende nye stemmene i norsk rock og m
+ etal\, han er en artist som kombinerer rå vokalkraft\, moderne produksjon
+  og et mørkt estetisk uttrykk som skiller seg tydelig ut i det norske mus
+ ikklandskapet.\nStorm har de siste årene vært å se på flere av landets
+  viktigste scener og festivaler\, og har markert seg som et live-navn som 
+ leverer hundre prosent hver eneste gang.\nTilbake på Tons of Rock\, står
+  STORM klar til å ta et nytt steg med et sceneshow og et uttrykk som vise
+ r hvorfor han regnes som et av de mest lovende nye navnene i norsk alterna
+ tiv rock. Dette er en artist du vil oppleve før alle andre gjør det.
 LOCATION:Moonlight Stage
 SUMMARY:STORM
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288847
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:b3b685fe-88fc-4217-b21e-b49f7949b8ed
+DTSTAMP:20260620T174341Z
+UID:d49af5c7-12cc-4e71-9178-e6d1cd6dd8a5
 DTSTART:20260626T164500
 DTEND:20260626T173500
-DESCRIPTION:Dogstar at Moonlight Stage
+DESCRIPTION:Dogstar startet som et vennskapelig garasjeprosjekt i Californi
+ a i 1991\, med gitarist/vokalist Bret Domrose\, trommeslager Robert Mailho
+ use og bassist Keanu Reeves\, kjent for sin Hollywood-karriere (The Matrix
+ \, John Wick\, Speed osv)\, men også en dedikert og langvarig musiker.\nI
+  2023 gjorde trioen et overraskende og etterlengtet comeback etter over 20
+  års pause. Deres første opptreden på BottleRock Napa Valley ble møtt 
+ med entusiasme\, og albumet Somewhere Between the Power Lines and Palm Tre
+ es markerte en ny start for bandet: melodidrevet\, varmt og ærlig alterna
+ tivrock skrevet under pandemien.\nDogstar handler fortsatt om akkurat det 
+ som startet det hele – tre kompiser som vil lage god musikk sammen. På 
+ Tons of Rock 2026 får du oppleve et band som har funnet tilbake til seg s
+ elv og som står midt i et svært vellykket comeback. En sjelden mulighet 
+ til å se Dogstar\, både som kultband og som musikere med ekte samspill o
+ g sjarm.
 LOCATION:Moonlight Stage
 SUMMARY:Dogstar
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288513
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:f2c95458-0918-4438-ba1c-64b096d0c9a1
+DTSTAMP:20260620T174341Z
+UID:de2f8daf-0493-44ae-8077-0c08945d48ac
 DTSTART:20260626T181000
 DTEND:20260626T190000
-DESCRIPTION:Elder at Moonlight Stage
+DESCRIPTION:Amerikanske Elder har gjennom snart to tiår etablert seg som e
+ t av de mest nyskapende bandene i moderne rock og metal. Med røtter i sto
+ ner- og doomscenen har de utviklet et helt eget uttrykk der tunge\, psyked
+ eliske riff møter progressive strukturer og svevende lydlandskap.\nBandet
+  ble startet i Massachusetts på midten av 2000-tallet og består i dag av
+  Nicholas DiSalvo\, Jack Donovan\, Michael Risberg og Georg Edert. Gjennom
+  album som ‘Lore’\, ‘Reflections of a Floating World’ og ‘Omens
+ ’ har Elder flyttet grensene for hvordan tung rock kan låte\, med lange
+ \, dynamiske komposisjoner som både utfordrer og hypnotiserer lytteren.\n
+ Etter å ha turnert verden rundt og nylig varmet opp for Tool på deres ar
+ enaturné i USA\, står Elder sterkere enn noen gang. Bandet er nå i arbe
+ id med sitt neste album\, planlagt utgivelse i 2025.\nPå Tons of Rock 202
+ 6 kan publikum forvente seg et band i full kunstnerisk flyt – en reise g
+ jennom tungt\, vakkert og grenseløst landskap der rockens format strekkes
+  til det ytterste.
 LOCATION:Moonlight Stage
 SUMMARY:Elder
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284326
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:1f444dc8-614f-4a5d-87b8-eb4837f0125b
+DTSTAMP:20260620T174341Z
+UID:71bf489a-db62-49a4-b812-b90575ff34f0
 DTSTART:20260626T194000
 DTEND:20260626T205000
-DESCRIPTION:Mayhem at Moonlight Stage
+DESCRIPTION:
 LOCATION:Moonlight Stage
 SUMMARY:Mayhem
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284332
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:95a1a346-843b-45c6-8815-12e1f43b4891
+DTSTAMP:20260620T174341Z
+UID:d5e1b244-e93b-417a-9635-4c674b3505c0
 DTSTART:20260626T214000
 DTEND:20260626T223000
-DESCRIPTION:Possessed at Moonlight Stage
+DESCRIPTION:Amerikanske Possessed regnes som et av de aller første og mest
+  innflytelsesrike death metal-bandene i historien. Bandet ble startet i Ca
+ lifornia tidlig på 80-tallet og var med på å definere sjangeren før de
+ n i det hele tatt hadde fått et navn.\nDebutalbumet Seven Churches (1985)
+  står fortsatt som et av de viktigste referansepunktene i death metal\, m
+ ed låter som “The Exorcist” og “Pentagram” som har inspirert utal
+ lige band i tiårene etter. Frontfigur Jeff Becerra har vært bandets kons
+ tante drivkraft gjennom både pauser og comeback\, og Possessed har de sis
+ te årene igjen befestet sin posisjon med albumet ‘Revelations of Oblivi
+ on’.\nLive leverer Possessed klassisk\, ufiltrert death metal\, raskt\, 
+ rått og kompromissløst.På Tons of Rock 2026 får publikum oppleve et ba
+ nd som ikke bare var med på å starte sjangeren\, men som fortsatt bærer
+  den videre med samme intensitet.
 LOCATION:Moonlight Stage
 SUMMARY:Possessed
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299423
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:71403059-6c21-438f-85fb-8190ea8350c0
+DTSTAMP:20260620T174341Z
+UID:e1e93cff-c9c5-435f-8458-0ab22cad037c
 DTSTART:20260626T150000
 DTEND:20260626T153000
-DESCRIPTION:Mørk Medisin at The Storm Stage
+DESCRIPTION:Dag og Espen tar humorpodkasten Mørk Medisin ut av studio og o
+ pp på scenen. Her dissekeres livets store og små absurditeter med bekmø
+ rk humor\, sylskarpe poenger og null filter. Ingen blir friskere\, men pub
+ likum går garantert derfra litt lettere til sinns. En rå\, ærlig og hys
+ terisk morsom liveopplevelse på Tons of Rock!
 LOCATION:The Storm Stage
 SUMMARY:Mørk Medisin
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329830
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:21fcb349-faa9-47eb-b577-8865900e3dc6
+DTSTAMP:20260620T174341Z
+UID:15f7badc-179e-46e5-b917-dbcceb4d5e62
 DTSTART:20260626T171000
 DTEND:20260626T174000
-DESCRIPTION:Høst at The Storm Stage
+DESCRIPTION:Høst er et av de aller første og mest betydningsfulle progroc
+ kbandene i Norge. Bandet ble dannet i 1971 og var med på å definere den 
+ norske progscenen på 70-tallet\, med et uttrykk som kombinerte tunge riff
+ \, komplekse arrangementer og tekster på norsk\, noe som var uvanlig og m
+ odig i en tid der de fleste sang på engelsk.\nMed albumene ‘På sterke 
+ vinger’ (1974) og ‘Hardt mot hardt’ (1976) skapte Høst et særprege
+ t lydbilde som beveget seg mellom progressiv rock\, hardrock og symfoniske
+  elementer. Særlig Hardt mot hardt har fått kultstatus og regnes i dag s
+ om en klassiker innen norsk 70-tallsrock. Bandets dynamikk\, tekniske ferd
+ igheter og vilje til å utfordre formatet gjorde dem til pionerer i en sja
+ nger som fortsatt var i støpeskjeen her hjemme.\nSelv om Høst hadde en r
+ elativt kort\, men intens aktiv periode\, har arven deres vist seg å vær
+ e langvarig. De står igjen som et viktig referansepunkt for senere genera
+ sjoner av norske prog- og hardrockband\, og representerer en tid der norsk
+  rock virkelig begynte å finne sitt eget språk og uttrykk.\nHøst er ikk
+ e bare et navn fra historiebøkene\, de er en del av fundamentet norsk pro
+ gressiv rock er bygget på.
 LOCATION:The Storm Stage
 SUMMARY:Høst
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299427
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:68cf7dce-eefb-46f2-99ad-314072164766
+DTSTAMP:20260620T174341Z
+UID:8e0dda5e-bdb1-4dc1-8fc4-77cb695adc3b
 DTSTART:20260626T181000
 DTEND:20260626T184000
-DESCRIPTION:Nora Svenningsen at The Storm Stage
+DESCRIPTION:Nora er en av Norges mest spennende stemmer på standupscenen. 
+ Vinner av Årets Humorspire 2023\, kjent for sylskarp humor\, trygg tilste
+ deværelse og treffsikre poenger. Mange kjenner henne fra Kongen Befaler\,
+  Ikke lov å le på hytta og Roast on the Coast på Prime Video. På scene
+ n leverer hun kompromissløs standup\, rett fra hjertet\, rett i fleisen o
+ g med full kontroll.
 LOCATION:The Storm Stage
 SUMMARY:Nora Svenningsen
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329831
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:b70926ce-e340-4d70-a503-d2fc2577bdff
+DTSTAMP:20260620T174341Z
+UID:42166a29-90da-499e-aa16-a0840c054faa
 DTSTART:20260626T191000
 DTEND:20260626T194000
-DESCRIPTION:Koco Franco at The Storm Stage
+DESCRIPTION:Det har lenge gått rykter\, hele veien til Tons of Rock-kontor
+ et\, om at Jorun Stiansen sammen med Egil Furre en årrekke har arrangert 
+ en av Norges minste og allikevel desidert feteste festivaler på Sørland
+ et.Løddepønk kjører utelukkende på med band fra den møkkete delen av 
+ punkscena i Norge. Såpass nysgjerrige ble vi at vi rett og slett måtte s
+ ende noen spioner ned. Og jaggu\; Løddepunk leverte på alle punkter!Mest
+  sjokkert ble vi nok over å se Jorun sjøl på scena der nede. Band har h
+ un tydeligvis fått seg og Koco Franco er navnet. \nBare å merke seg\
+ , først som sist. Med The Dogs som backingband kommer det musikk allered
+ e i vår\, og hvem skulle trodd at hun hadde en punkejævel i seg? Vi som
+  har vært på Løddepønk har ventet på dette i et par år nå og er lik
+ e klare som Jorun!«Å stå på scenen med ett punkband i ryggen har vært
+  en drøm for meg i mange år. Endelig skjer det!» - Jorun Stiansen
 LOCATION:The Storm Stage
 SUMMARY:Koco Franco
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299428
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:9205a8c5-e8c4-4bfb-8461-145e7179d909
+DTSTAMP:20260620T174341Z
+UID:ec4329fd-c99b-4320-bec8-f3c949b2f8b5
 DTSTART:20260626T131500
 DTEND:20260626T134500
-DESCRIPTION:Filmtalk med Kristofer Hivju at The Arcade
+DESCRIPTION:Filmtalk med Kristofer Hivju
 LOCATION:The Arcade
 SUMMARY:Filmtalk med Kristofer Hivju
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335187
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:9c96853d-fac0-4dc9-92f3-fa698fb6c6ab
+DTSTAMP:20260620T174341Z
+UID:3360da98-ea00-4d4b-95b4-d6337146a787
 DTSTART:20260626T160000
 DTEND:20260626T163000
-DESCRIPTION:Musikk Dragbingo at The Arcade
+DESCRIPTION:Er du hakket over middels musikkinteressert og har konkurransei
+ nstinktet i god behold - da er årest drag-musikkbingo med fantastiske Dr
+ agonic stedet du skal være! \nDragnorges king and queen of Metal\, Erik
+  Sjon og Fay Goth\, er tilbake igjen som duoen Dragonic og inviterer dere 
+ til Tons of Rock sin første drag musikkbingo! Bli med på en solid oppvar
+ ming til konsertene med musikken du elsker i møtepunktet mellom bingo og 
+ en musikkquiz. Det blir god stemning\, fete premier\, og kanskje du oppdag
+ er en ny favorittlåt?
 LOCATION:The Arcade
 SUMMARY:Musikk Dragbingo
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335193
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:52485092-0b97-4b77-be3a-fd22288bb614
+DTSTAMP:20260620T174341Z
+UID:49415d88-1204-49e9-a58a-49bc9707784a
 DTSTART:20260626T180000
 DTEND:20260626T183000
-DESCRIPTION:Live gaming at The Arcade
+DESCRIPTION:I løpet av Tons of Rock har DU muligheten til å vinne fine pr
+ emier i The Arcade! Kom innom og konkurrer i spillquiz med Steffen Lund\, 
+ eller utfordre vennene dine til dueller i Mario Kart World\, EA FC 2026 e
+ ller minigames fra Mario Party Jamboree! Det blir live gaming og konkurran
+ ser fra onsdag - lørdag\, så stikk innom og sjekk ut når du har muligh
+ eten til å gruse vennene dine og vinne nydelige premier.
 LOCATION:The Arcade
 SUMMARY:Live gaming
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335197
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:9a437cae-a2d6-493d-8a86-cf44958cd64b
+DTSTAMP:20260620T174341Z
+UID:59faa05a-28ea-4f7f-b3db-acd47a8e2107
 DTSTART:20260627T140000
 DTEND:20260627T145000
-DESCRIPTION:DDR at Scream stage
+DESCRIPTION:Det er ni år siden DDR tok farvel i et utsolgt Oslo Spektrum m
+ ed 5000 publikummere og lovte å komme tilbake om 25 år. Men verden har b
+ litt mer urolig\, og når polariseringen øker\, må brobyggerne tilbake i
+  tjeneste litt tidligere enn planlagt. 2026 blir året DDR gjenoppstår.\n
+ Med Atle Antonsen\, Johan Golden og Berit Boman i front\, er DDR bandet so
+ m kombinerer humor\, samfunnsblikk og tysk-bayermarinert rock med et sære
+ gent glimt i øyet.\nNå strammes lateksen\, gitarene kvesses og blåserek
+ ka poleres. DDR stiller med fullt 12-mannsband og låter som «Hier Wird E
+ s Leben\, Rai Rai»\, «Schwache Menschen»\, «99 Luftballons» og «Die 
+ Winde Am Kai.» Dette er en sjelden mulighet til å oppleve bandet som kal
+ ler seg en smie for vennskapskjetting mellom mennesker.\nPå Tons of Rock 
+ 2026 blir DDR gjenforent – og festen blir like smultstenket som høylytt
+ .
 LOCATION:Scream stage
 SUMMARY:DDR
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288840
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:1fab9d6f-3848-4b8d-823d-d01068ad2c45
+DTSTAMP:20260620T174341Z
+UID:cb003c8a-55b8-4914-9af1-5f0de0e4fced
 DTSTART:20260627T161000
 DTEND:20260627T171000
-DESCRIPTION:Sepultura - final show in Norway at Scream stage
+DESCRIPTION:ROOTS\, BLOODY ROOTS! SEPULTURA GJØR SIN SISTE KONSERT I NORGE
+ !\nSepultura er et av de mest innflytelsesrike metalbandene i moderne musi
+ kkhistorie. Siden oppstarten i Belo Horizonte for over 40 år siden har de
+  vært Brasils fremste musikalske ambassadører\, med en katalog som har f
+ ormet thrash\, groove og ekstremmetal i flere generasjoner.\nBandet har gi
+ tt ut 15 studioalbum\, solgt over 20 millioner plater globalt\, og mottatt
+  gull- og platinapriser i land som Frankrike\, Australia\, Indonesia\, Kyp
+ ros og selvsagt Brasil. Albumet Roots står fortsatt som et av sjangerens 
+ absolutte referansepunkter\, med mer enn 150 millioner Spotify-avspillinge
+ r alene. Deres siste utgivelse\, Quadra\, gikk rett inn på #5 i Tyskland 
+ og har passert 17 millioner streams.\nI 2023 annonserte Sepultura at de vi
+ lle avslutte bandets historie med én siste\, monumental avskjedsturné. M
+ ed den unge amerikanske trommevirtuosen Greyson Nekrutman på laget marker
+ er bandet slutten på fire tiår med kompromissløs musikalsk utvikling\, 
+ internasjonal suksess og global innflytelse.\nNår Sepultura gjester Tons 
+ of Rock 2026\, er det med et karrierespekket livesett og et band i full kr
+ aft. En siste sjanse til å oppleve et av metalhistoriens mest betydningsf
+ ulle navn på scenen. Dette blir historie.
 LOCATION:Scream stage
 SUMMARY:Sepultura - final show in Norway
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288517
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:65d2a1d1-52d2-4ff4-9f2b-00bca2254999
+DTSTAMP:20260620T174341Z
+UID:1aaf517e-0ac9-41c6-ad43-bf94b1b4adf5
 DTSTART:20260627T184000
 DTEND:20260627T195500
-DESCRIPTION:Accept at Scream stage
+DESCRIPTION:Med en karriere som strekker seg tilbake til 1970-tallet regnes
+  Accept som et av de mest innflytelsesrike bandene innen europeisk heavy m
+ etal. Gjennom flere tiår har de levert klassikere som Balls to the Wall\,
+  Metal Heart og Princess of the Dawn\, og befestet sin posisjon som en av
+  sjangerens store institusjoner.\nPublikum på Ekebergsletta kan dermed se
+  frem til et sett spekket med ikoniske låter og en konsertopplevelse fra 
+ et band som fortsatt leverer på høyeste nivå foran store festivalscener
+  verden over.
 LOCATION:Scream stage
 SUMMARY:Accept
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335199
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:f58cac82-404d-4167-a570-cc324a17a2e1
+DTSTAMP:20260620T174341Z
+UID:b43402e2-9621-4db3-8c79-55170fc79222
 DTSTART:20260627T212500
 DTEND:20260627T225500
-DESCRIPTION:Limp Bizkit at Scream stage
+DESCRIPTION:Limp Bizkit definerte en hel æra på slutten av 90-tallet og b
+ egynnelsen av 2000-tallet med sin eksplosive blanding av rap\, metal og ha
+ rdcore. Med Fred Durst i front og Wes Borlands særpregede riff ble de sel
+ ve flaggbærerne for nu metal – en sjanger som nå har fått en kraftig 
+ renessanse og igjen topper festivalplakater verden over. Med klassikere so
+ m Break Stuff\, Rollin’\, My Way og Nookie har Limp Bizkit skrevet seg i
+ nn i rockehistorien og inspirert en ny generasjon.\nBandet har solgt milli
+ oner av album\, toppet hitlistene og skapt noen av de mest minneverdige ø
+ yeblikkene fra sjangerens gullalder. Deres rå energi på scenen gjør at 
+ konsertene føles som et massivt kollektivt utbrudd\, uforutsigbart og int
+ enst.\nI 2026 spiller Limp Bizkit for første gang på Tons of Rock\, og f
+ estivalpublikummet kan se frem til en energisk og kompromissløs konsert f
+ ra et band som fremdeles leverer med kraft og særpreg.
 LOCATION:Scream stage
 SUMMARY:Limp Bizkit
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284331
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:166b3f92-ed00-4747-9245-15029a522242
+DTSTAMP:20260620T174341Z
+UID:20966d44-09df-4a3a-916d-207802f610c3
 DTSTART:20260627T130000
 DTEND:20260627T135000
-DESCRIPTION:Pain at Vampire Stage
+DESCRIPTION:PAIN er det industrielle metalprosjektet til svenske Peter Täg
+ tgren\, produsent\, multiinstrumentalist og en av metalens mest innflytels
+ esrike skikkelser. Det hele startet i 1997 som et soloprosjekt der Tägtgr
+ en gjorde alt selv\, fra vokal og instrumenter til produksjon. Slik er det
+  fortsatt på plate\, men live har PAIN vokst til et fullverdig band med s
+ ønnen Sebastian Tägtgren på trommer\, Jonathan Olsson på bass og Sebas
+ tian Svalland på gitar.\nPAIN står bak åtte album og en rekke låter so
+ m har blitt moderne metalhits\, blant annet ‘End of the Line’\, ‘Shu
+ t Your Mouth’\, ‘Same Old Song’\, ‘Follow Me’ og ‘Coming Home
+ ’. I 2021 kom singelen ‘Party In My Head’\, som i dag har over 35 mi
+ llioner Spotify-avspillinger og er prosjektets mest strømmede låt noensi
+ nne. Låten dukket senere opp på det niende albumet ‘I Am’ fra 2024.\
+ nParallelt med PAIN har Tägtgren vært sentral i metalverdenen gjennom Hy
+ pocrisy\, og ikke minst som produsent i Abyss Studio\, der han har jobbet 
+ med alt fra Amon Amarth til Dimmu Borgir\, Immortal og Sabaton.\nPå Tons 
+ of Rock 2026 er PAIN klare for å levere harde riff\, store refrenger og d
+ en industrielle energien som har gjort dem til en livefavoritt for fans ov
+ er hele verden.
 LOCATION:Vampire Stage
 SUMMARY:Pain
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288845
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:7bda071f-ecc1-4198-a922-2bf0b00f4619
+DTSTAMP:20260620T174341Z
+UID:d4558360-2440-4971-b51d-52a6b031328c
 DTSTART:20260627T150500
 DTEND:20260627T155500
-DESCRIPTION:Black Label Society at Vampire Stage
+DESCRIPTION:Bak Black Label Society står gitaristen\, vokalisten og låtsk
+ riveren Zakk Wylde\, kjent som Ozzy Osbournes mangeårige gitarist og en a
+ v de mest gjenkjennelige figurene i moderne metal. Bandet ble startet i 19
+ 98 og har siden gitt ut elleve studioalbum\, med låter som ‘Stillborn
+ ’\, ‘In This River’ og ‘Suicide Messiah’ som fanfavoritter.\nMus
+ ikken blander tung riffbasert metal med sørstatsrock og blues\, og lyden 
+ er massiv! På scenen handler det om presisjon\, tyngde og en råhet som f
+ å andre band matcher\, et sted mellom Sabbath\, Pantera og Lynyrd Skynyrd
+  på steroider. Black Label Society er rett og slett ekte metalhåndverk f
+ ra en av sjangerens mest respekterte gitarhelter. Dette er en konsert du k
+ jenner i brystkassa lenge etterpå.
 LOCATION:Vampire Stage
 SUMMARY:Black Label Society
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284316
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:9e905fd7-fd9a-467e-aba4-0f6d86cade96
+DTSTAMP:20260620T174341Z
+UID:1e8d19ac-1b2c-4682-b0e2-3bc10cd5286e
 DTSTART:20260627T172500
 DTEND:20260627T182500
-DESCRIPTION:Leprous at Vampire Stage
+DESCRIPTION:Leprous har gått fra å være et norsk undergrunnsfenomen til 
+ å bli et av de mest respekterte progmetalbandene i Europa. Bandet fra Not
+ odden har bygget en sterk internasjonal posisjon med sin særpregede miks 
+ av progressiv metal\, elektroniske elementer og melodisk intensitet.\nMed 
+ album som ‘Malina’\, ‘Pitfalls’ og ‘Aphelion’ har de utviklet 
+ et uttrykk som både fans og kritikere trekker frem som noe helt eget. Kon
+ sertscenen er der Leprous virkelig skiller seg ut med sin presise og emosj
+ onelle tilstedeværelse. De har spilt på en rekke festivaler og klubber i
+ nternasjonalt\, og fått anerkjennelse for sine live-opptredener hvor komp
+ lekse komposisjoner oversettes til tight og intens energi på scenen.\nTro
+ mmeslager Baard Kolstad er blitt en referansefigur innen moderne tromming 
+ og et viktig element i bandets dynamikk. Du så han kanskje på Drumeo tid
+ ligere i år? Sammen med Einar Solbergs særegne vokal og bandets kompromi
+ ssløse fokus på kvalitet\, har Leprous bygget et stort internasjonalt ry
+ kte.\nFor de som liker progrock med en fot i metal og hjertet i melodi\, m
+ ed overraskende vendinger og sterke følelser\, er Leprous et av de mest t
+ ydelige navnene i sjangeren. På Tons of Rock 2026 får publikum sjansen t
+ il å oppleve et band som både imponerer musikalsk og leverer live med kv
+ alitet og nerve.
 LOCATION:Vampire Stage
 SUMMARY:Leprous
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288514
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:c5271cd2-ffe0-42dd-bc7f-5d2c570702a1
+DTSTAMP:20260620T174341Z
+UID:643cbf98-828a-4f4a-99c1-0a90e5c25f57
 DTSTART:20260627T200500
 DTEND:20260627T211500
-DESCRIPTION:A Perfect Circle at Vampire Stage
+DESCRIPTION:A Perfect Circle er ikke bare et band\, det er en opplevelse. S
+ iden debuten i 1999 har de skapt musikk som beveger seg i rommet mellom de
+ t brutalt mørke og det skjøre vakre. Med Tool-frontmann Maynard James Ke
+ enans hypnotiske vokal og Billy Howerdels særegne låtskriving har de byg
+ get et univers som er like mye kunst som rock.\nGjennom fire album\, fra d
+ en banebrytende debuten Mer de Noms til Thirteenth Step og det etterlengte
+ de comebacket Eat the Elephant\, har A Perfect Circle solgt millioner av p
+ later og oppnådd flere topp 5-plasseringer på Billboard-listene. De har 
+ spilt for fulle hus verden over\, og bandets evne til å kombinere kommers
+ iell suksess med kompromissløs kunstnerisk visjon er sjelden vare i rocke
+ ns verden.\nAt A Perfect Circle nå gjester Tons of Rock 2026 er en sjelde
+ n anledning til å oppleve et band som alltid har gått sine egne veier og
+  utfordret hva rock kan være. Dette blir et øyeblikk av ren magi på Eke
+ bergsletta.
 LOCATION:Vampire Stage
 SUMMARY:A Perfect Circle
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284310
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:453cfec0-fe45-48cb-ba48-b081080ecff3
+DTSTAMP:20260620T174341Z
+UID:2827d6e6-809b-49c8-8926-923d15713289
 DTSTART:20260627T130000
 DTEND:20260627T134000
-DESCRIPTION:Ego Kill Talent at Moonlight Stage
+DESCRIPTION:Brasilianske Ego Kill Talent har etablert seg som et av Sør-Am
+ erikas sterkeste rockeband\, med opptredener på festivaler som Rock in Ri
+ o\, Hellfest\, Aftershock og Rock im Park\, og turneer i både Brasil\, Eu
+ ropa og USA.\nBandet har delt scene med giganter som Foo Fighters\, Queens
+  of the Stone Age\, Evanescence\, Linkin Park og spilte i 2025 for over 50
+ 0 000 mennesker som special guests for System of a Down på en utsolgt Sø
+ r-Amerika-turné.\nMed Emmily Barreto som ny frontfigur har Ego Kill Talen
+ t fått en tydelig og kraftfull retning. EP-en ‘Call Us By Her Name’ (
+ 2023) og singelen ‘We Move As One’ med Andreas Kisser og Rob Damiani\,
+  viste et band i kreativ vekst og med voksende internasjonal oppmerksomhet
+ .\nPå Tons of Rock 2026 kommer Ego Kill Talent med et liveshow som har gj
+ ort dem til publikumsmagneter verden over: hardtslående\, energisk og uhy
+ re samspilt.
 LOCATION:Moonlight Stage
 SUMMARY:Ego Kill Talent
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288515
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:a2703ce0-1710-4ed1-abd2-74466eb397d7
+DTSTAMP:20260620T174341Z
+UID:bdfa717b-93d4-4254-a028-3406164590c2
 DTSTART:20260627T141000
 DTEND:20260627T145500
-DESCRIPTION:Slay Squad at Moonlight Stage
+DESCRIPTION:Slay Squad er et av de mest spennende og grenseløse navnene i 
+ den nye bølgen av ekstrem musikk. Bandet fra California blander trap\, ha
+ rdcore\, deathcore og industrial med et visuelt uttrykk som henter like my
+ e fra klubbkultur som fra metalens mørkeste kroker. Resultatet er et komp
+ romissløst og hypermoderne lydbilde som har gitt dem en voksende kultstat
+ us.\nSiden starten har Slay Squad bygget et sterkt DIY-univers både visue
+ lt og musikalsk\, og fått oppmerksomhet for intense musikkvideoer\, tung 
+ produksjon og energiske liveopptredener. De omtales ofte som en av de mest
+  innovative hybrid-aktørene på den amerikanske undergrunnsscenen\, og ha
+ r turnert med artister som Bring Me The Horizon og diverse navn fra trap-m
+ etal-miljøet.\nSlay Squad representerer et nytt krysningspunkt i ekstrem 
+ musikk\, brutalt\, klubbete og kaotisk\, men med tydelig identitet og ster
+ k tilstedeværelse. På Tons of Rock 2026 kan publikum forvente en foresti
+ lling like mye som en konsert: mørk\, intens og grenseløs.
 LOCATION:Moonlight Stage
 SUMMARY:Slay Squad
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288516
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:ab2d750a-207e-4a6d-9051-bbe1b65addf3
+DTSTAMP:20260620T174341Z
+UID:1d3a6544-2ed8-4da3-b2bd-7040b78a85d9
 DTSTART:20260627T152500
 DTEND:20260627T161000
-DESCRIPTION:GAEREA at Moonlight Stage
+DESCRIPTION:Bak maskene skjuler det seg et av de mest spennende navnene i m
+ oderne ekstrem metal. Portugisiske Gaerea har på kort tid blitt et band m
+ an må forholde seg til. Et band som forener ekstrem råskap med suggerere
+ nde stemninger og emosjonell tyngde.\nSiden starten i 2016 har Gaerea gitt
+  ut en EP og tre album\, og skapt sitt eget univers der menneskelig smerte
+ \, isolasjon og eksistensiell uro står i sentrum. Albumene ‘Limbo’ og
+  ‘Mirage’ gjorde dem til et navn å regne med\, og med ‘Coma’ (202
+ 4) tar de steget ut av undergrunnen mot en plass blant sjangerens nye lede
+ re.\nMusikalsk kombinerer Gaerea den kaotiske intensiteten fra klassisk bl
+ ack metal med moderne produksjon\, melankoli og dynamikk. Resultatet er mu
+ sikk som både river og fanger.\nPå Tons of Rock 2026 kommer Gaerea med a
+ lt sitt mørke\, all sin intensitet og en tilstedeværelse som må oppleve
+ s. Dette er black metal i bevegelse og en ny æra er i ferd med å ta form
+ .
 LOCATION:Moonlight Stage
 SUMMARY:GAEREA
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284327
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:2b655c82-f03a-496c-91a5-43f212a49467
+DTSTAMP:20260620T174341Z
+UID:215749cf-5398-40f0-992b-7db64a0d4b62
 DTSTART:20260627T164500
 DTEND:20260627T173500
-DESCRIPTION:Gatecreeper at Moonlight Stage
+DESCRIPTION:Gatecreeper er i ferd med å ta steget opp som et av de ledende
+  navnene i amerikansk death metal. Bandet fra Arizona\, bestående av Chas
+ e H. Mason\, Eric Wagner\, Israel Garza\, Alex Brown og Metal Matt Arrebol
+ lo\, har brukt det siste tiåret på å bygge seg opp fra undergrunnen til
+  internasjonale scener.\nGatecreeper startet i 2013 og fikk raskt oppmerks
+ omhet for sin old-school tilnærming til death metal. ‘Debutalbumet Sono
+ ran Depravation’ (2016) plasserte dem på kartet\, mens oppfølgeren ‘
+ Deserted’ (2019) viste et band som tenkte større. De kalte det selv “
+ stadion death metal”. Nå står de på egne ben som headlinere verden ov
+ er\, etter turneer med blant andre Cannibal Corpse\, Power Trip\, Obituary
+  og Municipal Waste.\nGatecreeper er death metal for 2020-tallet\, tungt\,
+  presist og uhyggelig fengende. På Tons of Rock 2026 kommer de for å vis
+ e hvorfor nettopp de er bandet alle snakker om.
 LOCATION:Moonlight Stage
 SUMMARY:Gatecreeper
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284328
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:638b1b84-79a2-4d9c-8775-08a4615487e2
+DTSTAMP:20260620T174341Z
+UID:9d7287e9-7c1a-4f1e-b7eb-06fd95265ede
 DTSTART:20260627T185500
 DTEND:20260627T194500
-DESCRIPTION:Blood Red Throne at Moonlight Stage
+DESCRIPTION:Blood Red Throne har siden 1998 vært en av Norges mest komprom
+ issløse death metal-eksporter. Startet av Daniel “Død” Olaisen\, har
+  bandet utviklet et uttrykk som kombinerer teknisk presisjon\, brutal tyng
+ de og en old-school aggressivitet som har gjort dem til et av de mest resp
+ ekterte navnene i europeisk death metal.\nMed en katalog som teller tolv s
+ tudioalbum og turneer worldwide\, har de vært på turne med blant annet D
+ immu Borgir og Cryptopsy.  Blood Red Throne er kjent for sin direkte\, nå
+ deløse stil: beinharde riff\, maskinpresise trommer og en vokal som treff
+ er som et slag i brystet.\nPå Tons of Rock 2026 kommer de for å levere d
+ eath metal i sin reneste form: mørkt og massivt!
 LOCATION:Moonlight Stage
 SUMMARY:Blood Red Throne
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-288839
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:cff42b00-e09f-422a-8d28-d21837b0b488
+DTSTAMP:20260620T174341Z
+UID:7c61bd90-4cd4-478f-912e-5bca8ccf58bf
 DTSTART:20260627T201500
 DTEND:20260627T211500
-DESCRIPTION:Death to All at Moonlight Stage
+DESCRIPTION:– En hyllest til Death og arven etter Chuck Schuldiner\nFå b
+ and har hatt større innflytelse på heavy metal enn Death. Da Chuck Schul
+ diner startet bandet i Florida i 1984\, under navnet Mantas\, var det inge
+ n som ante at han kom til å legge grunnsteinen for en helt ny sjanger. Me
+ d debutalbumet ‘Scream Bloody Gore’ i 1987 ble death metal født og ba
+ ndet ble raskt selve referansepunktet for den voksende scenen i Florida.\n
+ Etter Schuldiners bortgang i 2001 ble Death oppløst\, men arven lever vid
+ ere gjennom Death To All – et band bestående av originale Death-medlemm
+ er som hedrer både musikken og mannen bak. Bak trommene sitter legenden G
+ ene Hoglan (Dark Angel\, Dethklok)\, på bass Steve DiGiorgio (Testament\,
+  Sadus)\, og på gitar Bobby Koelble (Death)\, sammen med vokalist og gita
+ rist Max Phelps (Exist\, Cynic).\nFor dem handler dette ikke om nostalgi\,
+  men om å holde arven levende. “His legacy will always live on\,” sie
+ r Hoglan\, og fortsetter: “Myself and [fellow former Death members] Bobb
+ y Koelble and Steve DiGiorgio\, have Death To All going... it's always an 
+ absolute blast to play Chuck's material and make it sound cool.” \nDeat
+ h To All spiller låter fra hele Deaths katalog fra ‘Scream Bloody Gore
+ ’ og ‘Leprosy’ til ‘Symbolic’ og ‘The Sound of Perseverance’
+  og leverer en brutal\, presis og lidenskapelig hyllest til en av metalhis
+ toriens mest banebrytende artister. Let the metal flow!
 LOCATION:Moonlight Stage
 SUMMARY:Death to All
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-284323
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:896077b2-4939-466d-95fe-e8df6395c6fc
+DTSTAMP:20260620T174341Z
+UID:44701c23-36db-4f5f-9129-3ef022977547
 DTSTART:20260627T140000
 DTEND:20260627T143000
-DESCRIPTION:Javad El Bakali at The Storm Stage
+DESCRIPTION:Javad El Bakali er en leken standup-komiker\, kjent som utlendi
+ ng.memes med hundretusener av følgere på instagram og tik tok. Vinner av
+  Humorprisen – Morsomste på nett\, fast i Humoretaten på NRK og aktuel
+ l med podkasten Javad & Jørgen. Skarp\, aktuell og kompromissløs humor!
 LOCATION:The Storm Stage
 SUMMARY:Javad El Bakali
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329836
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:675782c1-86c2-471b-801b-3274218e94e0
+DTSTAMP:20260620T174341Z
+UID:a080ec37-b686-4b72-b7cc-585e5879b7f1
 DTSTART:20260627T160000
 DTEND:20260627T163000
-DESCRIPTION:You know Who at The Storm Stage
+DESCRIPTION:You Know Who spiller scandirock slik det skal låte: rett frem\
+ , svett og skrudd opp til 11. Med den ene foten plantet hos Turbonegro og 
+ Gluecifer\, og den andre solid i arven etter The Hellacopters og The Hives
+ \, leverer bandet riffdrevet rock med både glimt i øyet og seriøs trøk
+ k.\nSiden debuten ‘DUMB’. har de høstet sterke anmeldelser\, blant an
+ net terningkast fem og omtale som «årets rockealbum»\, og bygget seg op
+ p gjennom utsolgte klubbscener i Norge. De har også gjort seg bemerket ut
+ enfor landegrensene\, med solid respons i Tyskland\, Danmark\, Sverige og 
+ Italia. I forkant av oppfølgeren ‘DRUNK’. ble de omtalt som «prinsen
+ e av scandirock» av Stjernepose\, en merkelapp de har tatt med seg videre
+  ut på veien.\nVi gleder oss stort til å se You Know Who og oppleve en e
+ ksplosjon av skandirock på sletta i juni!
 LOCATION:The Storm Stage
 SUMMARY:You know Who
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299425
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:906d147b-9a4b-45f7-95e1-68d84e8e15fc
+DTSTAMP:20260620T174341Z
+UID:2d0c5606-ccb8-41ef-ae32-5abea686389b
 DTSTART:20260627T182500
 DTEND:20260627T185500
-DESCRIPTION:Bill Bailey at The Storm Stage
+DESCRIPTION:En levende legende innen humor og musikk\, med fulle hus verden
+  over siden 90‑tallet. Bill som er kjent fra QI\, Have I Got News for Yo
+ u og Black Books\, er en mester i å kombinere humor med musikalsk virtuos
+ itet. Dette er ikke bare standup\, det er et show.
 LOCATION:The Storm Stage
 SUMMARY:Bill Bailey
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-329829
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:3780ed71-9856-47ad-94f2-bcd31c4029ed
+DTSTAMP:20260620T174341Z
+UID:7470fcfa-05cc-4daa-8081-bd56d73c3304
 DTSTART:20260627T193000
 DTEND:20260627T200000
-DESCRIPTION:Baphy at The Storm Stage
+DESCRIPTION:Englebarn møter svartmetal.\nBaphy er et av de mest interessan
+ te nye navnene i norsk metal. Bak artisten Baphy står vokalist og trommis
+  Thea Ossum\, som har skapt sitt eget univers\, både visuelt og musikalsk
+ . Hun har en mørk\, kompromissløs signatur og et uttrykk som best beskri
+ ves med\, det noe uvanlige\, begrepet: søt svartmetal<3\nBaphy represente
+ rer en generasjon artister som ikke lar seg plassere i én sjanger\, men h
+ eller bygger sitt eget uttrykk på tvers av grenser. \nPå Tons of Rock 2
+ 026 får publikum oppleve en artist i tydelig utvikling: mørk\, moderne o
+ g kompromissløs. Baphy er et navn vi anbefaler å følge tett fremover!
 LOCATION:The Storm Stage
 SUMMARY:Baphy
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-299424
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:dff52711-2dfc-4621-b2ab-9ddcedce5b72
+DTSTAMP:20260620T174341Z
+UID:96afa59e-2ac8-45a0-b76c-0a9bd3d11216
 DTSTART:20260627T160000
 DTEND:20260627T163000
-DESCRIPTION:Musikk Dragbingo at The Arcade
+DESCRIPTION:Er du hakket over middels musikkinteressert og har konkurransei
+ nstinktet i god behold - da er årest drag-musikkbingo med fantastiske Dr
+ agonic stedet du skal være! \nDragnorges king and queen of Metal\, Erik
+  Sjon og Fay Goth\, er tilbake igjen som duoen Dragonic og inviterer dere 
+ til Tons of Rock sin første drag musikkbingo! Bli med på en solid oppvar
+ ming til konsertene med musikken du elsker i møtepunktet mellom bingo og 
+ en musikkquiz. Det blir god stemning\, fete premier\, og kanskje du oppdag
+ er en ny favorittlåt?
 LOCATION:The Arcade
 SUMMARY:Musikk Dragbingo
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
  ormance-335194
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260620T161517Z
-UID:0e9671fd-d48a-44e8-9832-412c884be06e
+DTSTAMP:20260620T174341Z
+UID:f93c68f5-a646-44b8-b3ff-bdee49b6144e
 DTSTART:20260627T180000
 DTEND:20260627T183000
-DESCRIPTION:Live gaming at The Arcade
+DESCRIPTION:I løpet av Tons of Rock har DU muligheten til å vinne fine pr
+ emier i The Arcade! Kom innom og konkurrer i spillquiz med Steffen Lund\, 
+ eller utfordre vennene dine til dueller i Mario Kart World\, EA FC 2026 e
+ ller minigames fra Mario Party Jamboree! Det blir live gaming og konkurran
+ ser fra onsdag - lørdag\, så stikk innom og sjekk ut når du har muligh
+ eten til å gruse vennene dine og vinne nydelige premier.
 LOCATION:The Arcade
 SUMMARY:Live gaming
 URL;VALUE=URI:https://www.tonsofrock.no/program/spilletider#w5f66Pu7hV_perf
