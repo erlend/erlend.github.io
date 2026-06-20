@@ -40,7 +40,7 @@ run = [{ task = "tailwindcss", args = ["--minify"] }]
 
 [tasks."tailwindcss:watch"]
 hide = true
-run = [{ task = "tailwindcss", args = ["--watch"] }]
+run = [{ task = "tailwindcss", args = ["--watch=always"] }]
 
 [tasks."lint:ruby"]
 depends = ["setup"]
