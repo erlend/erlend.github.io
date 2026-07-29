@@ -86,7 +86,7 @@ GEM
       webrick (~> 1.7)
     jekyll-environment-variables (1.0.1)
       jekyll (>= 3.0, < 5.x)
-    jekyll-minibundle (3.0.0)
+    jekyll-minibundle (4.0.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-seo-tag (2.9.0)
